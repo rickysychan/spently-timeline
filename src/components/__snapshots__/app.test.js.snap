@@ -16,481 +16,897 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        <Table
-          email="marcie.keller@puria.co.uk"
-          emailType="Newsletter"
-          timestamp={1534791896}
-/>,
-        <Table
-          email="sharp.sanchez@exiand.org"
-          emailType="Newsletter"
-          timestamp={1530837537}
-/>,
-        <Table
-          email="coffey.bishop@poshome.tv"
-          emailType="POS Receipt"
-          timestamp={1529280627}
-/>,
-        <Table
-          email="oliver.lewis@kozgene.net"
-          emailType="Shipping Update"
-          timestamp={1526556220}
-/>,
-        <Table
-          email="bonner.roth@hometown.ca"
-          emailType="Customer Password Reset"
-          timestamp={1519381111}
-/>,
-        <Table
-          email="miriam.vasquez@playce.com"
-          emailType="Abandoned Checkout"
-          timestamp={1518621000}
-/>,
-        <Table
-          email="bettie.washington@eplosion.biz"
-          emailType="Order Confirmation"
-          timestamp={1515214989}
-/>,
-        <Table
-          email="lenora.marshall@furnitech.info"
-          emailType="Shipment Delivered"
-          timestamp={1512952979}
-/>,
-        <Table
-          email="hester.rich@cemention.org"
-          emailType="Draft Invoice"
-          timestamp={1511440881}
-/>,
-        <Table
-          email="martina.salazar@cyclonica.tv"
-          emailType="Shipment Delivered"
-          timestamp={1510524050}
-/>,
-        <Table
-          email="webster.blackburn@dentrex.com"
-          emailType="Order Cancelled"
-          timestamp={1504189812}
-/>,
-        <Table
-          email="campos.terry@tripsch.biz"
-          emailType="POS Receipt"
-          timestamp={1503391809}
-/>,
-        <Table
-          email="whitney.joyce@zillidium.co.uk"
-          emailType="Shipment Sent"
-          timestamp={1493010976}
-/>,
-        <Table
-          email="kristy.bell@crustatia.org"
-          emailType="Gift Card"
-          timestamp={1490717952}
-/>,
-        <Table
-          email="virgie.chandler@nurali.biz"
-          emailType="Contact Customer"
-          timestamp={1480955338}
-/>,
-        <Table
-          email="myrtle.montgomery@emtrak.me"
-          emailType="Newsletter"
-          timestamp={1475241319}
-/>,
-        <Table
-          email="jannie.house@bedder.us"
-          emailType="Shipment Sent"
-          timestamp={1470911209}
-/>,
-        <Table
-          email="regina.rocha@interfind.me"
-          emailType="Contact Customer"
-          timestamp={1466948304}
-/>,
-        <Table
-          email="camille.farmer@terragen.us"
-          emailType="Shipping Confirmation"
-          timestamp={1455788435}
-/>,
-        <Table
-          email="beasley.frazier@furnafix.info"
-          emailType="Refund Notification"
-          timestamp={1452582699}
-/>,
-        <Table
-          email="cassandra.neal@pyramax.name"
-          emailType="Shipment Sent"
-          timestamp={1436589207}
-/>,
-        <Table
-          email="lucia.jensen@netur.biz"
-          emailType="Newsletter"
-          timestamp={1434489029}
-/>,
-        <Table
-          email="denise.williams@zoinage.us"
-          emailType="Refund Notification"
-          timestamp={1427677678}
-/>,
-        <Table
-          email="ursula.estes@zolarex.name"
-          emailType="Newsletter"
-          timestamp={1424134270}
-/>,
-        <Table
-          email="reynolds.moran@zytrac.ca"
-          emailType="Shipping Update"
-          timestamp={1403774908}
-/>,
-        <Table
-          email="anastasia.durham@ginkogene.net"
-          emailType="Order Cancelled"
-          timestamp={1394601773}
-/>,
-      ],
-      "className": "table-timeline",
+      "children": <table
+        className="table--card"
+>
+        <tbody
+                className="timeline-details"
+        >
+                <tr
+                        className="table__row"
+                >
+                        <th
+                                className="table__row__heading"
+                        >
+                                Email
+                        </th>
+                        <th
+                                className="table__row__heading"
+                        >
+                                Email Type
+                        </th>
+                        <th
+                                className="table__row__heading"
+                        >
+                                Time Stamp
+                        </th>
+                </tr>
+                <TableDetails
+                        email="marcie.keller@puria.co.uk"
+                        emailType="Newsletter"
+                        timestamp={1534791896}
+                />
+                <TableDetails
+                        email="sharp.sanchez@exiand.org"
+                        emailType="Newsletter"
+                        timestamp={1530837537}
+                />
+                <TableDetails
+                        email="coffey.bishop@poshome.tv"
+                        emailType="POS Receipt"
+                        timestamp={1529280627}
+                />
+                <TableDetails
+                        email="oliver.lewis@kozgene.net"
+                        emailType="Shipping Update"
+                        timestamp={1526556220}
+                />
+                <TableDetails
+                        email="bonner.roth@hometown.ca"
+                        emailType="Customer Password Reset"
+                        timestamp={1519381111}
+                />
+                <TableDetails
+                        email="miriam.vasquez@playce.com"
+                        emailType="Abandoned Checkout"
+                        timestamp={1518621000}
+                />
+                <TableDetails
+                        email="bettie.washington@eplosion.biz"
+                        emailType="Order Confirmation"
+                        timestamp={1515214989}
+                />
+                <TableDetails
+                        email="lenora.marshall@furnitech.info"
+                        emailType="Shipment Delivered"
+                        timestamp={1512952979}
+                />
+                <TableDetails
+                        email="hester.rich@cemention.org"
+                        emailType="Draft Invoice"
+                        timestamp={1511440881}
+                />
+                <TableDetails
+                        email="martina.salazar@cyclonica.tv"
+                        emailType="Shipment Delivered"
+                        timestamp={1510524050}
+                />
+                <TableDetails
+                        email="webster.blackburn@dentrex.com"
+                        emailType="Order Cancelled"
+                        timestamp={1504189812}
+                />
+                <TableDetails
+                        email="campos.terry@tripsch.biz"
+                        emailType="POS Receipt"
+                        timestamp={1503391809}
+                />
+                <TableDetails
+                        email="whitney.joyce@zillidium.co.uk"
+                        emailType="Shipment Sent"
+                        timestamp={1493010976}
+                />
+                <TableDetails
+                        email="kristy.bell@crustatia.org"
+                        emailType="Gift Card"
+                        timestamp={1490717952}
+                />
+                <TableDetails
+                        email="virgie.chandler@nurali.biz"
+                        emailType="Contact Customer"
+                        timestamp={1480955338}
+                />
+                <TableDetails
+                        email="myrtle.montgomery@emtrak.me"
+                        emailType="Newsletter"
+                        timestamp={1475241319}
+                />
+                <TableDetails
+                        email="jannie.house@bedder.us"
+                        emailType="Shipment Sent"
+                        timestamp={1470911209}
+                />
+                <TableDetails
+                        email="regina.rocha@interfind.me"
+                        emailType="Contact Customer"
+                        timestamp={1466948304}
+                />
+                <TableDetails
+                        email="camille.farmer@terragen.us"
+                        emailType="Shipping Confirmation"
+                        timestamp={1455788435}
+                />
+                <TableDetails
+                        email="beasley.frazier@furnafix.info"
+                        emailType="Refund Notification"
+                        timestamp={1452582699}
+                />
+                <TableDetails
+                        email="cassandra.neal@pyramax.name"
+                        emailType="Shipment Sent"
+                        timestamp={1436589207}
+                />
+                <TableDetails
+                        email="lucia.jensen@netur.biz"
+                        emailType="Newsletter"
+                        timestamp={1434489029}
+                />
+                <TableDetails
+                        email="denise.williams@zoinage.us"
+                        emailType="Refund Notification"
+                        timestamp={1427677678}
+                />
+                <TableDetails
+                        email="ursula.estes@zolarex.name"
+                        emailType="Newsletter"
+                        timestamp={1424134270}
+                />
+                <TableDetails
+                        email="reynolds.moran@zytrac.ca"
+                        emailType="Shipping Update"
+                        timestamp={1403774908}
+                />
+                <TableDetails
+                        email="anastasia.durham@ginkogene.net"
+                        emailType="Order Cancelled"
+                        timestamp={1394601773}
+                />
+        </tbody>
+</table>,
+      "className": "table",
     },
     "ref": null,
-    "rendered": Array [
-      Object {
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <tbody
+          className="timeline-details"
+>
+          <tr
+                    className="table__row"
+          >
+                    <th
+                              className="table__row__heading"
+                    >
+                              Email
+                    </th>
+                    <th
+                              className="table__row__heading"
+                    >
+                              Email Type
+                    </th>
+                    <th
+                              className="table__row__heading"
+                    >
+                              Time Stamp
+                    </th>
+          </tr>
+          <TableDetails
+                    email="marcie.keller@puria.co.uk"
+                    emailType="Newsletter"
+                    timestamp={1534791896}
+          />
+          <TableDetails
+                    email="sharp.sanchez@exiand.org"
+                    emailType="Newsletter"
+                    timestamp={1530837537}
+          />
+          <TableDetails
+                    email="coffey.bishop@poshome.tv"
+                    emailType="POS Receipt"
+                    timestamp={1529280627}
+          />
+          <TableDetails
+                    email="oliver.lewis@kozgene.net"
+                    emailType="Shipping Update"
+                    timestamp={1526556220}
+          />
+          <TableDetails
+                    email="bonner.roth@hometown.ca"
+                    emailType="Customer Password Reset"
+                    timestamp={1519381111}
+          />
+          <TableDetails
+                    email="miriam.vasquez@playce.com"
+                    emailType="Abandoned Checkout"
+                    timestamp={1518621000}
+          />
+          <TableDetails
+                    email="bettie.washington@eplosion.biz"
+                    emailType="Order Confirmation"
+                    timestamp={1515214989}
+          />
+          <TableDetails
+                    email="lenora.marshall@furnitech.info"
+                    emailType="Shipment Delivered"
+                    timestamp={1512952979}
+          />
+          <TableDetails
+                    email="hester.rich@cemention.org"
+                    emailType="Draft Invoice"
+                    timestamp={1511440881}
+          />
+          <TableDetails
+                    email="martina.salazar@cyclonica.tv"
+                    emailType="Shipment Delivered"
+                    timestamp={1510524050}
+          />
+          <TableDetails
+                    email="webster.blackburn@dentrex.com"
+                    emailType="Order Cancelled"
+                    timestamp={1504189812}
+          />
+          <TableDetails
+                    email="campos.terry@tripsch.biz"
+                    emailType="POS Receipt"
+                    timestamp={1503391809}
+          />
+          <TableDetails
+                    email="whitney.joyce@zillidium.co.uk"
+                    emailType="Shipment Sent"
+                    timestamp={1493010976}
+          />
+          <TableDetails
+                    email="kristy.bell@crustatia.org"
+                    emailType="Gift Card"
+                    timestamp={1490717952}
+          />
+          <TableDetails
+                    email="virgie.chandler@nurali.biz"
+                    emailType="Contact Customer"
+                    timestamp={1480955338}
+          />
+          <TableDetails
+                    email="myrtle.montgomery@emtrak.me"
+                    emailType="Newsletter"
+                    timestamp={1475241319}
+          />
+          <TableDetails
+                    email="jannie.house@bedder.us"
+                    emailType="Shipment Sent"
+                    timestamp={1470911209}
+          />
+          <TableDetails
+                    email="regina.rocha@interfind.me"
+                    emailType="Contact Customer"
+                    timestamp={1466948304}
+          />
+          <TableDetails
+                    email="camille.farmer@terragen.us"
+                    emailType="Shipping Confirmation"
+                    timestamp={1455788435}
+          />
+          <TableDetails
+                    email="beasley.frazier@furnafix.info"
+                    emailType="Refund Notification"
+                    timestamp={1452582699}
+          />
+          <TableDetails
+                    email="cassandra.neal@pyramax.name"
+                    emailType="Shipment Sent"
+                    timestamp={1436589207}
+          />
+          <TableDetails
+                    email="lucia.jensen@netur.biz"
+                    emailType="Newsletter"
+                    timestamp={1434489029}
+          />
+          <TableDetails
+                    email="denise.williams@zoinage.us"
+                    emailType="Refund Notification"
+                    timestamp={1427677678}
+          />
+          <TableDetails
+                    email="ursula.estes@zolarex.name"
+                    emailType="Newsletter"
+                    timestamp={1424134270}
+          />
+          <TableDetails
+                    email="reynolds.moran@zytrac.ca"
+                    emailType="Shipping Update"
+                    timestamp={1403774908}
+          />
+          <TableDetails
+                    email="anastasia.durham@ginkogene.net"
+                    emailType="Order Cancelled"
+                    timestamp={1394601773}
+          />
+</tbody>,
+        "className": "table--card",
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
-        "key": "5b7ddb2171df5789191554bb",
-        "nodeType": "function",
+        "key": undefined,
+        "nodeType": "host",
         "props": Object {
-          "email": "marcie.keller@puria.co.uk",
-          "emailType": "Newsletter",
-          "timestamp": 1534791896,
+          "children": Array [
+            <tr
+              className="table__row"
+>
+              <th
+                            className="table__row__heading"
+              >
+                            Email
+              </th>
+              <th
+                            className="table__row__heading"
+              >
+                            Email Type
+              </th>
+              <th
+                            className="table__row__heading"
+              >
+                            Time Stamp
+              </th>
+</tr>,
+            Array [
+              <TableDetails
+                email="marcie.keller@puria.co.uk"
+                emailType="Newsletter"
+                timestamp={1534791896}
+/>,
+              <TableDetails
+                email="sharp.sanchez@exiand.org"
+                emailType="Newsletter"
+                timestamp={1530837537}
+/>,
+              <TableDetails
+                email="coffey.bishop@poshome.tv"
+                emailType="POS Receipt"
+                timestamp={1529280627}
+/>,
+              <TableDetails
+                email="oliver.lewis@kozgene.net"
+                emailType="Shipping Update"
+                timestamp={1526556220}
+/>,
+              <TableDetails
+                email="bonner.roth@hometown.ca"
+                emailType="Customer Password Reset"
+                timestamp={1519381111}
+/>,
+              <TableDetails
+                email="miriam.vasquez@playce.com"
+                emailType="Abandoned Checkout"
+                timestamp={1518621000}
+/>,
+              <TableDetails
+                email="bettie.washington@eplosion.biz"
+                emailType="Order Confirmation"
+                timestamp={1515214989}
+/>,
+              <TableDetails
+                email="lenora.marshall@furnitech.info"
+                emailType="Shipment Delivered"
+                timestamp={1512952979}
+/>,
+              <TableDetails
+                email="hester.rich@cemention.org"
+                emailType="Draft Invoice"
+                timestamp={1511440881}
+/>,
+              <TableDetails
+                email="martina.salazar@cyclonica.tv"
+                emailType="Shipment Delivered"
+                timestamp={1510524050}
+/>,
+              <TableDetails
+                email="webster.blackburn@dentrex.com"
+                emailType="Order Cancelled"
+                timestamp={1504189812}
+/>,
+              <TableDetails
+                email="campos.terry@tripsch.biz"
+                emailType="POS Receipt"
+                timestamp={1503391809}
+/>,
+              <TableDetails
+                email="whitney.joyce@zillidium.co.uk"
+                emailType="Shipment Sent"
+                timestamp={1493010976}
+/>,
+              <TableDetails
+                email="kristy.bell@crustatia.org"
+                emailType="Gift Card"
+                timestamp={1490717952}
+/>,
+              <TableDetails
+                email="virgie.chandler@nurali.biz"
+                emailType="Contact Customer"
+                timestamp={1480955338}
+/>,
+              <TableDetails
+                email="myrtle.montgomery@emtrak.me"
+                emailType="Newsletter"
+                timestamp={1475241319}
+/>,
+              <TableDetails
+                email="jannie.house@bedder.us"
+                emailType="Shipment Sent"
+                timestamp={1470911209}
+/>,
+              <TableDetails
+                email="regina.rocha@interfind.me"
+                emailType="Contact Customer"
+                timestamp={1466948304}
+/>,
+              <TableDetails
+                email="camille.farmer@terragen.us"
+                emailType="Shipping Confirmation"
+                timestamp={1455788435}
+/>,
+              <TableDetails
+                email="beasley.frazier@furnafix.info"
+                emailType="Refund Notification"
+                timestamp={1452582699}
+/>,
+              <TableDetails
+                email="cassandra.neal@pyramax.name"
+                emailType="Shipment Sent"
+                timestamp={1436589207}
+/>,
+              <TableDetails
+                email="lucia.jensen@netur.biz"
+                emailType="Newsletter"
+                timestamp={1434489029}
+/>,
+              <TableDetails
+                email="denise.williams@zoinage.us"
+                emailType="Refund Notification"
+                timestamp={1427677678}
+/>,
+              <TableDetails
+                email="ursula.estes@zolarex.name"
+                emailType="Newsletter"
+                timestamp={1424134270}
+/>,
+              <TableDetails
+                email="reynolds.moran@zytrac.ca"
+                emailType="Shipping Update"
+                timestamp={1403774908}
+/>,
+              <TableDetails
+                email="anastasia.durham@ginkogene.net"
+                emailType="Order Cancelled"
+                timestamp={1394601773}
+/>,
+            ],
+          ],
+          "className": "timeline-details",
         },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <th
+                  className="table__row__heading"
+>
+                  Email
+</th>,
+                <th
+                  className="table__row__heading"
+>
+                  Email Type
+</th>,
+                <th
+                  className="table__row__heading"
+>
+                  Time Stamp
+</th>,
+              ],
+              "className": "table__row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Email",
+                  "className": "table__row__heading",
+                },
+                "ref": null,
+                "rendered": "Email",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Email Type",
+                  "className": "table__row__heading",
+                },
+                "ref": null,
+                "rendered": "Email Type",
+                "type": "th",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Time Stamp",
+                  "className": "table__row__heading",
+                },
+                "ref": null,
+                "rendered": "Time Stamp",
+                "type": "th",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb2171df5789191554bb",
+            "nodeType": "function",
+            "props": Object {
+              "email": "marcie.keller@puria.co.uk",
+              "emailType": "Newsletter",
+              "timestamp": 1534791896,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb212403c9cee7a0764f",
+            "nodeType": "function",
+            "props": Object {
+              "email": "sharp.sanchez@exiand.org",
+              "emailType": "Newsletter",
+              "timestamp": 1530837537,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21f838e0a5076ae5a7",
+            "nodeType": "function",
+            "props": Object {
+              "email": "coffey.bishop@poshome.tv",
+              "emailType": "POS Receipt",
+              "timestamp": 1529280627,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb211a2867ff74585065",
+            "nodeType": "function",
+            "props": Object {
+              "email": "oliver.lewis@kozgene.net",
+              "emailType": "Shipping Update",
+              "timestamp": 1526556220,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21b6cf1d7b2b78ba88",
+            "nodeType": "function",
+            "props": Object {
+              "email": "bonner.roth@hometown.ca",
+              "emailType": "Customer Password Reset",
+              "timestamp": 1519381111,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb216d1fcb619dbe8145",
+            "nodeType": "function",
+            "props": Object {
+              "email": "miriam.vasquez@playce.com",
+              "emailType": "Abandoned Checkout",
+              "timestamp": 1518621000,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb213530115c987aefcc",
+            "nodeType": "function",
+            "props": Object {
+              "email": "bettie.washington@eplosion.biz",
+              "emailType": "Order Confirmation",
+              "timestamp": 1515214989,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb2190c6d34ad86bb36c",
+            "nodeType": "function",
+            "props": Object {
+              "email": "lenora.marshall@furnitech.info",
+              "emailType": "Shipment Delivered",
+              "timestamp": 1512952979,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb217e7a0bdcf6e8545c",
+            "nodeType": "function",
+            "props": Object {
+              "email": "hester.rich@cemention.org",
+              "emailType": "Draft Invoice",
+              "timestamp": 1511440881,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21ea9816bc0195aa18",
+            "nodeType": "function",
+            "props": Object {
+              "email": "martina.salazar@cyclonica.tv",
+              "emailType": "Shipment Delivered",
+              "timestamp": 1510524050,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21540230519f464c96",
+            "nodeType": "function",
+            "props": Object {
+              "email": "webster.blackburn@dentrex.com",
+              "emailType": "Order Cancelled",
+              "timestamp": 1504189812,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb2135e3973fabb1cf41",
+            "nodeType": "function",
+            "props": Object {
+              "email": "campos.terry@tripsch.biz",
+              "emailType": "POS Receipt",
+              "timestamp": 1503391809,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb214bd32e72f5666a9b",
+            "nodeType": "function",
+            "props": Object {
+              "email": "whitney.joyce@zillidium.co.uk",
+              "emailType": "Shipment Sent",
+              "timestamp": 1493010976,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb2152b4f95afa96b211",
+            "nodeType": "function",
+            "props": Object {
+              "email": "kristy.bell@crustatia.org",
+              "emailType": "Gift Card",
+              "timestamp": 1490717952,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21333e572d2d44431c",
+            "nodeType": "function",
+            "props": Object {
+              "email": "virgie.chandler@nurali.biz",
+              "emailType": "Contact Customer",
+              "timestamp": 1480955338,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21ee79d9942947c9c4",
+            "nodeType": "function",
+            "props": Object {
+              "email": "myrtle.montgomery@emtrak.me",
+              "emailType": "Newsletter",
+              "timestamp": 1475241319,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb219e3a12f2cb00662d",
+            "nodeType": "function",
+            "props": Object {
+              "email": "jannie.house@bedder.us",
+              "emailType": "Shipment Sent",
+              "timestamp": 1470911209,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21829fb0e15bed5da0",
+            "nodeType": "function",
+            "props": Object {
+              "email": "regina.rocha@interfind.me",
+              "emailType": "Contact Customer",
+              "timestamp": 1466948304,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21df85df05ae8dce24",
+            "nodeType": "function",
+            "props": Object {
+              "email": "camille.farmer@terragen.us",
+              "emailType": "Shipping Confirmation",
+              "timestamp": 1455788435,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21d983142aa62016f5",
+            "nodeType": "function",
+            "props": Object {
+              "email": "beasley.frazier@furnafix.info",
+              "emailType": "Refund Notification",
+              "timestamp": 1452582699,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21734bf5bab7250352",
+            "nodeType": "function",
+            "props": Object {
+              "email": "cassandra.neal@pyramax.name",
+              "emailType": "Shipment Sent",
+              "timestamp": 1436589207,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb2145d1c16d45ebcea8",
+            "nodeType": "function",
+            "props": Object {
+              "email": "lucia.jensen@netur.biz",
+              "emailType": "Newsletter",
+              "timestamp": 1434489029,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21a5ce9636dc1d7e41",
+            "nodeType": "function",
+            "props": Object {
+              "email": "denise.williams@zoinage.us",
+              "emailType": "Refund Notification",
+              "timestamp": 1427677678,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb21caae970a5fbc9fb6",
+            "nodeType": "function",
+            "props": Object {
+              "email": "ursula.estes@zolarex.name",
+              "emailType": "Newsletter",
+              "timestamp": 1424134270,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb219559519edfaf281d",
+            "nodeType": "function",
+            "props": Object {
+              "email": "reynolds.moran@zytrac.ca",
+              "emailType": "Shipping Update",
+              "timestamp": 1403774908,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5b7ddb2100931b8e4b578a1b",
+            "nodeType": "function",
+            "props": Object {
+              "email": "anastasia.durham@ginkogene.net",
+              "emailType": "Order Cancelled",
+              "timestamp": 1394601773,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "tbody",
       },
-      Object {
-        "instance": null,
-        "key": "5b7ddb212403c9cee7a0764f",
-        "nodeType": "function",
-        "props": Object {
-          "email": "sharp.sanchez@exiand.org",
-          "emailType": "Newsletter",
-          "timestamp": 1530837537,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21f838e0a5076ae5a7",
-        "nodeType": "function",
-        "props": Object {
-          "email": "coffey.bishop@poshome.tv",
-          "emailType": "POS Receipt",
-          "timestamp": 1529280627,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb211a2867ff74585065",
-        "nodeType": "function",
-        "props": Object {
-          "email": "oliver.lewis@kozgene.net",
-          "emailType": "Shipping Update",
-          "timestamp": 1526556220,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21b6cf1d7b2b78ba88",
-        "nodeType": "function",
-        "props": Object {
-          "email": "bonner.roth@hometown.ca",
-          "emailType": "Customer Password Reset",
-          "timestamp": 1519381111,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb216d1fcb619dbe8145",
-        "nodeType": "function",
-        "props": Object {
-          "email": "miriam.vasquez@playce.com",
-          "emailType": "Abandoned Checkout",
-          "timestamp": 1518621000,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb213530115c987aefcc",
-        "nodeType": "function",
-        "props": Object {
-          "email": "bettie.washington@eplosion.biz",
-          "emailType": "Order Confirmation",
-          "timestamp": 1515214989,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb2190c6d34ad86bb36c",
-        "nodeType": "function",
-        "props": Object {
-          "email": "lenora.marshall@furnitech.info",
-          "emailType": "Shipment Delivered",
-          "timestamp": 1512952979,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb217e7a0bdcf6e8545c",
-        "nodeType": "function",
-        "props": Object {
-          "email": "hester.rich@cemention.org",
-          "emailType": "Draft Invoice",
-          "timestamp": 1511440881,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21ea9816bc0195aa18",
-        "nodeType": "function",
-        "props": Object {
-          "email": "martina.salazar@cyclonica.tv",
-          "emailType": "Shipment Delivered",
-          "timestamp": 1510524050,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21540230519f464c96",
-        "nodeType": "function",
-        "props": Object {
-          "email": "webster.blackburn@dentrex.com",
-          "emailType": "Order Cancelled",
-          "timestamp": 1504189812,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb2135e3973fabb1cf41",
-        "nodeType": "function",
-        "props": Object {
-          "email": "campos.terry@tripsch.biz",
-          "emailType": "POS Receipt",
-          "timestamp": 1503391809,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb214bd32e72f5666a9b",
-        "nodeType": "function",
-        "props": Object {
-          "email": "whitney.joyce@zillidium.co.uk",
-          "emailType": "Shipment Sent",
-          "timestamp": 1493010976,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb2152b4f95afa96b211",
-        "nodeType": "function",
-        "props": Object {
-          "email": "kristy.bell@crustatia.org",
-          "emailType": "Gift Card",
-          "timestamp": 1490717952,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21333e572d2d44431c",
-        "nodeType": "function",
-        "props": Object {
-          "email": "virgie.chandler@nurali.biz",
-          "emailType": "Contact Customer",
-          "timestamp": 1480955338,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21ee79d9942947c9c4",
-        "nodeType": "function",
-        "props": Object {
-          "email": "myrtle.montgomery@emtrak.me",
-          "emailType": "Newsletter",
-          "timestamp": 1475241319,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb219e3a12f2cb00662d",
-        "nodeType": "function",
-        "props": Object {
-          "email": "jannie.house@bedder.us",
-          "emailType": "Shipment Sent",
-          "timestamp": 1470911209,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21829fb0e15bed5da0",
-        "nodeType": "function",
-        "props": Object {
-          "email": "regina.rocha@interfind.me",
-          "emailType": "Contact Customer",
-          "timestamp": 1466948304,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21df85df05ae8dce24",
-        "nodeType": "function",
-        "props": Object {
-          "email": "camille.farmer@terragen.us",
-          "emailType": "Shipping Confirmation",
-          "timestamp": 1455788435,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21d983142aa62016f5",
-        "nodeType": "function",
-        "props": Object {
-          "email": "beasley.frazier@furnafix.info",
-          "emailType": "Refund Notification",
-          "timestamp": 1452582699,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21734bf5bab7250352",
-        "nodeType": "function",
-        "props": Object {
-          "email": "cassandra.neal@pyramax.name",
-          "emailType": "Shipment Sent",
-          "timestamp": 1436589207,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb2145d1c16d45ebcea8",
-        "nodeType": "function",
-        "props": Object {
-          "email": "lucia.jensen@netur.biz",
-          "emailType": "Newsletter",
-          "timestamp": 1434489029,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21a5ce9636dc1d7e41",
-        "nodeType": "function",
-        "props": Object {
-          "email": "denise.williams@zoinage.us",
-          "emailType": "Refund Notification",
-          "timestamp": 1427677678,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb21caae970a5fbc9fb6",
-        "nodeType": "function",
-        "props": Object {
-          "email": "ursula.estes@zolarex.name",
-          "emailType": "Newsletter",
-          "timestamp": 1424134270,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb219559519edfaf281d",
-        "nodeType": "function",
-        "props": Object {
-          "email": "reynolds.moran@zytrac.ca",
-          "emailType": "Shipping Update",
-          "timestamp": 1403774908,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "5b7ddb2100931b8e4b578a1b",
-        "nodeType": "function",
-        "props": Object {
-          "email": "anastasia.durham@ginkogene.net",
-          "emailType": "Order Cancelled",
-          "timestamp": 1394601773,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
+      "type": "table",
+    },
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -499,481 +915,897 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          <Table
-            email="marcie.keller@puria.co.uk"
-            emailType="Newsletter"
-            timestamp={1534791896}
-/>,
-          <Table
-            email="sharp.sanchez@exiand.org"
-            emailType="Newsletter"
-            timestamp={1530837537}
-/>,
-          <Table
-            email="coffey.bishop@poshome.tv"
-            emailType="POS Receipt"
-            timestamp={1529280627}
-/>,
-          <Table
-            email="oliver.lewis@kozgene.net"
-            emailType="Shipping Update"
-            timestamp={1526556220}
-/>,
-          <Table
-            email="bonner.roth@hometown.ca"
-            emailType="Customer Password Reset"
-            timestamp={1519381111}
-/>,
-          <Table
-            email="miriam.vasquez@playce.com"
-            emailType="Abandoned Checkout"
-            timestamp={1518621000}
-/>,
-          <Table
-            email="bettie.washington@eplosion.biz"
-            emailType="Order Confirmation"
-            timestamp={1515214989}
-/>,
-          <Table
-            email="lenora.marshall@furnitech.info"
-            emailType="Shipment Delivered"
-            timestamp={1512952979}
-/>,
-          <Table
-            email="hester.rich@cemention.org"
-            emailType="Draft Invoice"
-            timestamp={1511440881}
-/>,
-          <Table
-            email="martina.salazar@cyclonica.tv"
-            emailType="Shipment Delivered"
-            timestamp={1510524050}
-/>,
-          <Table
-            email="webster.blackburn@dentrex.com"
-            emailType="Order Cancelled"
-            timestamp={1504189812}
-/>,
-          <Table
-            email="campos.terry@tripsch.biz"
-            emailType="POS Receipt"
-            timestamp={1503391809}
-/>,
-          <Table
-            email="whitney.joyce@zillidium.co.uk"
-            emailType="Shipment Sent"
-            timestamp={1493010976}
-/>,
-          <Table
-            email="kristy.bell@crustatia.org"
-            emailType="Gift Card"
-            timestamp={1490717952}
-/>,
-          <Table
-            email="virgie.chandler@nurali.biz"
-            emailType="Contact Customer"
-            timestamp={1480955338}
-/>,
-          <Table
-            email="myrtle.montgomery@emtrak.me"
-            emailType="Newsletter"
-            timestamp={1475241319}
-/>,
-          <Table
-            email="jannie.house@bedder.us"
-            emailType="Shipment Sent"
-            timestamp={1470911209}
-/>,
-          <Table
-            email="regina.rocha@interfind.me"
-            emailType="Contact Customer"
-            timestamp={1466948304}
-/>,
-          <Table
-            email="camille.farmer@terragen.us"
-            emailType="Shipping Confirmation"
-            timestamp={1455788435}
-/>,
-          <Table
-            email="beasley.frazier@furnafix.info"
-            emailType="Refund Notification"
-            timestamp={1452582699}
-/>,
-          <Table
-            email="cassandra.neal@pyramax.name"
-            emailType="Shipment Sent"
-            timestamp={1436589207}
-/>,
-          <Table
-            email="lucia.jensen@netur.biz"
-            emailType="Newsletter"
-            timestamp={1434489029}
-/>,
-          <Table
-            email="denise.williams@zoinage.us"
-            emailType="Refund Notification"
-            timestamp={1427677678}
-/>,
-          <Table
-            email="ursula.estes@zolarex.name"
-            emailType="Newsletter"
-            timestamp={1424134270}
-/>,
-          <Table
-            email="reynolds.moran@zytrac.ca"
-            emailType="Shipping Update"
-            timestamp={1403774908}
-/>,
-          <Table
-            email="anastasia.durham@ginkogene.net"
-            emailType="Order Cancelled"
-            timestamp={1394601773}
-/>,
-        ],
-        "className": "table-timeline",
+        "children": <table
+          className="table--card"
+>
+          <tbody
+                    className="timeline-details"
+          >
+                    <tr
+                              className="table__row"
+                    >
+                              <th
+                                        className="table__row__heading"
+                              >
+                                        Email
+                              </th>
+                              <th
+                                        className="table__row__heading"
+                              >
+                                        Email Type
+                              </th>
+                              <th
+                                        className="table__row__heading"
+                              >
+                                        Time Stamp
+                              </th>
+                    </tr>
+                    <TableDetails
+                              email="marcie.keller@puria.co.uk"
+                              emailType="Newsletter"
+                              timestamp={1534791896}
+                    />
+                    <TableDetails
+                              email="sharp.sanchez@exiand.org"
+                              emailType="Newsletter"
+                              timestamp={1530837537}
+                    />
+                    <TableDetails
+                              email="coffey.bishop@poshome.tv"
+                              emailType="POS Receipt"
+                              timestamp={1529280627}
+                    />
+                    <TableDetails
+                              email="oliver.lewis@kozgene.net"
+                              emailType="Shipping Update"
+                              timestamp={1526556220}
+                    />
+                    <TableDetails
+                              email="bonner.roth@hometown.ca"
+                              emailType="Customer Password Reset"
+                              timestamp={1519381111}
+                    />
+                    <TableDetails
+                              email="miriam.vasquez@playce.com"
+                              emailType="Abandoned Checkout"
+                              timestamp={1518621000}
+                    />
+                    <TableDetails
+                              email="bettie.washington@eplosion.biz"
+                              emailType="Order Confirmation"
+                              timestamp={1515214989}
+                    />
+                    <TableDetails
+                              email="lenora.marshall@furnitech.info"
+                              emailType="Shipment Delivered"
+                              timestamp={1512952979}
+                    />
+                    <TableDetails
+                              email="hester.rich@cemention.org"
+                              emailType="Draft Invoice"
+                              timestamp={1511440881}
+                    />
+                    <TableDetails
+                              email="martina.salazar@cyclonica.tv"
+                              emailType="Shipment Delivered"
+                              timestamp={1510524050}
+                    />
+                    <TableDetails
+                              email="webster.blackburn@dentrex.com"
+                              emailType="Order Cancelled"
+                              timestamp={1504189812}
+                    />
+                    <TableDetails
+                              email="campos.terry@tripsch.biz"
+                              emailType="POS Receipt"
+                              timestamp={1503391809}
+                    />
+                    <TableDetails
+                              email="whitney.joyce@zillidium.co.uk"
+                              emailType="Shipment Sent"
+                              timestamp={1493010976}
+                    />
+                    <TableDetails
+                              email="kristy.bell@crustatia.org"
+                              emailType="Gift Card"
+                              timestamp={1490717952}
+                    />
+                    <TableDetails
+                              email="virgie.chandler@nurali.biz"
+                              emailType="Contact Customer"
+                              timestamp={1480955338}
+                    />
+                    <TableDetails
+                              email="myrtle.montgomery@emtrak.me"
+                              emailType="Newsletter"
+                              timestamp={1475241319}
+                    />
+                    <TableDetails
+                              email="jannie.house@bedder.us"
+                              emailType="Shipment Sent"
+                              timestamp={1470911209}
+                    />
+                    <TableDetails
+                              email="regina.rocha@interfind.me"
+                              emailType="Contact Customer"
+                              timestamp={1466948304}
+                    />
+                    <TableDetails
+                              email="camille.farmer@terragen.us"
+                              emailType="Shipping Confirmation"
+                              timestamp={1455788435}
+                    />
+                    <TableDetails
+                              email="beasley.frazier@furnafix.info"
+                              emailType="Refund Notification"
+                              timestamp={1452582699}
+                    />
+                    <TableDetails
+                              email="cassandra.neal@pyramax.name"
+                              emailType="Shipment Sent"
+                              timestamp={1436589207}
+                    />
+                    <TableDetails
+                              email="lucia.jensen@netur.biz"
+                              emailType="Newsletter"
+                              timestamp={1434489029}
+                    />
+                    <TableDetails
+                              email="denise.williams@zoinage.us"
+                              emailType="Refund Notification"
+                              timestamp={1427677678}
+                    />
+                    <TableDetails
+                              email="ursula.estes@zolarex.name"
+                              emailType="Newsletter"
+                              timestamp={1424134270}
+                    />
+                    <TableDetails
+                              email="reynolds.moran@zytrac.ca"
+                              emailType="Shipping Update"
+                              timestamp={1403774908}
+                    />
+                    <TableDetails
+                              email="anastasia.durham@ginkogene.net"
+                              emailType="Order Cancelled"
+                              timestamp={1394601773}
+                    />
+          </tbody>
+</table>,
+        "className": "table",
       },
       "ref": null,
-      "rendered": Array [
-        Object {
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tbody
+            className="timeline-details"
+>
+            <tr
+                        className="table__row"
+            >
+                        <th
+                                    className="table__row__heading"
+                        >
+                                    Email
+                        </th>
+                        <th
+                                    className="table__row__heading"
+                        >
+                                    Email Type
+                        </th>
+                        <th
+                                    className="table__row__heading"
+                        >
+                                    Time Stamp
+                        </th>
+            </tr>
+            <TableDetails
+                        email="marcie.keller@puria.co.uk"
+                        emailType="Newsletter"
+                        timestamp={1534791896}
+            />
+            <TableDetails
+                        email="sharp.sanchez@exiand.org"
+                        emailType="Newsletter"
+                        timestamp={1530837537}
+            />
+            <TableDetails
+                        email="coffey.bishop@poshome.tv"
+                        emailType="POS Receipt"
+                        timestamp={1529280627}
+            />
+            <TableDetails
+                        email="oliver.lewis@kozgene.net"
+                        emailType="Shipping Update"
+                        timestamp={1526556220}
+            />
+            <TableDetails
+                        email="bonner.roth@hometown.ca"
+                        emailType="Customer Password Reset"
+                        timestamp={1519381111}
+            />
+            <TableDetails
+                        email="miriam.vasquez@playce.com"
+                        emailType="Abandoned Checkout"
+                        timestamp={1518621000}
+            />
+            <TableDetails
+                        email="bettie.washington@eplosion.biz"
+                        emailType="Order Confirmation"
+                        timestamp={1515214989}
+            />
+            <TableDetails
+                        email="lenora.marshall@furnitech.info"
+                        emailType="Shipment Delivered"
+                        timestamp={1512952979}
+            />
+            <TableDetails
+                        email="hester.rich@cemention.org"
+                        emailType="Draft Invoice"
+                        timestamp={1511440881}
+            />
+            <TableDetails
+                        email="martina.salazar@cyclonica.tv"
+                        emailType="Shipment Delivered"
+                        timestamp={1510524050}
+            />
+            <TableDetails
+                        email="webster.blackburn@dentrex.com"
+                        emailType="Order Cancelled"
+                        timestamp={1504189812}
+            />
+            <TableDetails
+                        email="campos.terry@tripsch.biz"
+                        emailType="POS Receipt"
+                        timestamp={1503391809}
+            />
+            <TableDetails
+                        email="whitney.joyce@zillidium.co.uk"
+                        emailType="Shipment Sent"
+                        timestamp={1493010976}
+            />
+            <TableDetails
+                        email="kristy.bell@crustatia.org"
+                        emailType="Gift Card"
+                        timestamp={1490717952}
+            />
+            <TableDetails
+                        email="virgie.chandler@nurali.biz"
+                        emailType="Contact Customer"
+                        timestamp={1480955338}
+            />
+            <TableDetails
+                        email="myrtle.montgomery@emtrak.me"
+                        emailType="Newsletter"
+                        timestamp={1475241319}
+            />
+            <TableDetails
+                        email="jannie.house@bedder.us"
+                        emailType="Shipment Sent"
+                        timestamp={1470911209}
+            />
+            <TableDetails
+                        email="regina.rocha@interfind.me"
+                        emailType="Contact Customer"
+                        timestamp={1466948304}
+            />
+            <TableDetails
+                        email="camille.farmer@terragen.us"
+                        emailType="Shipping Confirmation"
+                        timestamp={1455788435}
+            />
+            <TableDetails
+                        email="beasley.frazier@furnafix.info"
+                        emailType="Refund Notification"
+                        timestamp={1452582699}
+            />
+            <TableDetails
+                        email="cassandra.neal@pyramax.name"
+                        emailType="Shipment Sent"
+                        timestamp={1436589207}
+            />
+            <TableDetails
+                        email="lucia.jensen@netur.biz"
+                        emailType="Newsletter"
+                        timestamp={1434489029}
+            />
+            <TableDetails
+                        email="denise.williams@zoinage.us"
+                        emailType="Refund Notification"
+                        timestamp={1427677678}
+            />
+            <TableDetails
+                        email="ursula.estes@zolarex.name"
+                        emailType="Newsletter"
+                        timestamp={1424134270}
+            />
+            <TableDetails
+                        email="reynolds.moran@zytrac.ca"
+                        emailType="Shipping Update"
+                        timestamp={1403774908}
+            />
+            <TableDetails
+                        email="anastasia.durham@ginkogene.net"
+                        emailType="Order Cancelled"
+                        timestamp={1394601773}
+            />
+</tbody>,
+          "className": "table--card",
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
-          "key": "5b7ddb2171df5789191554bb",
-          "nodeType": "function",
+          "key": undefined,
+          "nodeType": "host",
           "props": Object {
-            "email": "marcie.keller@puria.co.uk",
-            "emailType": "Newsletter",
-            "timestamp": 1534791896,
+            "children": Array [
+              <tr
+                className="table__row"
+>
+                <th
+                                className="table__row__heading"
+                >
+                                Email
+                </th>
+                <th
+                                className="table__row__heading"
+                >
+                                Email Type
+                </th>
+                <th
+                                className="table__row__heading"
+                >
+                                Time Stamp
+                </th>
+</tr>,
+              Array [
+                <TableDetails
+                  email="marcie.keller@puria.co.uk"
+                  emailType="Newsletter"
+                  timestamp={1534791896}
+/>,
+                <TableDetails
+                  email="sharp.sanchez@exiand.org"
+                  emailType="Newsletter"
+                  timestamp={1530837537}
+/>,
+                <TableDetails
+                  email="coffey.bishop@poshome.tv"
+                  emailType="POS Receipt"
+                  timestamp={1529280627}
+/>,
+                <TableDetails
+                  email="oliver.lewis@kozgene.net"
+                  emailType="Shipping Update"
+                  timestamp={1526556220}
+/>,
+                <TableDetails
+                  email="bonner.roth@hometown.ca"
+                  emailType="Customer Password Reset"
+                  timestamp={1519381111}
+/>,
+                <TableDetails
+                  email="miriam.vasquez@playce.com"
+                  emailType="Abandoned Checkout"
+                  timestamp={1518621000}
+/>,
+                <TableDetails
+                  email="bettie.washington@eplosion.biz"
+                  emailType="Order Confirmation"
+                  timestamp={1515214989}
+/>,
+                <TableDetails
+                  email="lenora.marshall@furnitech.info"
+                  emailType="Shipment Delivered"
+                  timestamp={1512952979}
+/>,
+                <TableDetails
+                  email="hester.rich@cemention.org"
+                  emailType="Draft Invoice"
+                  timestamp={1511440881}
+/>,
+                <TableDetails
+                  email="martina.salazar@cyclonica.tv"
+                  emailType="Shipment Delivered"
+                  timestamp={1510524050}
+/>,
+                <TableDetails
+                  email="webster.blackburn@dentrex.com"
+                  emailType="Order Cancelled"
+                  timestamp={1504189812}
+/>,
+                <TableDetails
+                  email="campos.terry@tripsch.biz"
+                  emailType="POS Receipt"
+                  timestamp={1503391809}
+/>,
+                <TableDetails
+                  email="whitney.joyce@zillidium.co.uk"
+                  emailType="Shipment Sent"
+                  timestamp={1493010976}
+/>,
+                <TableDetails
+                  email="kristy.bell@crustatia.org"
+                  emailType="Gift Card"
+                  timestamp={1490717952}
+/>,
+                <TableDetails
+                  email="virgie.chandler@nurali.biz"
+                  emailType="Contact Customer"
+                  timestamp={1480955338}
+/>,
+                <TableDetails
+                  email="myrtle.montgomery@emtrak.me"
+                  emailType="Newsletter"
+                  timestamp={1475241319}
+/>,
+                <TableDetails
+                  email="jannie.house@bedder.us"
+                  emailType="Shipment Sent"
+                  timestamp={1470911209}
+/>,
+                <TableDetails
+                  email="regina.rocha@interfind.me"
+                  emailType="Contact Customer"
+                  timestamp={1466948304}
+/>,
+                <TableDetails
+                  email="camille.farmer@terragen.us"
+                  emailType="Shipping Confirmation"
+                  timestamp={1455788435}
+/>,
+                <TableDetails
+                  email="beasley.frazier@furnafix.info"
+                  emailType="Refund Notification"
+                  timestamp={1452582699}
+/>,
+                <TableDetails
+                  email="cassandra.neal@pyramax.name"
+                  emailType="Shipment Sent"
+                  timestamp={1436589207}
+/>,
+                <TableDetails
+                  email="lucia.jensen@netur.biz"
+                  emailType="Newsletter"
+                  timestamp={1434489029}
+/>,
+                <TableDetails
+                  email="denise.williams@zoinage.us"
+                  emailType="Refund Notification"
+                  timestamp={1427677678}
+/>,
+                <TableDetails
+                  email="ursula.estes@zolarex.name"
+                  emailType="Newsletter"
+                  timestamp={1424134270}
+/>,
+                <TableDetails
+                  email="reynolds.moran@zytrac.ca"
+                  emailType="Shipping Update"
+                  timestamp={1403774908}
+/>,
+                <TableDetails
+                  email="anastasia.durham@ginkogene.net"
+                  emailType="Order Cancelled"
+                  timestamp={1394601773}
+/>,
+              ],
+            ],
+            "className": "timeline-details",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th
+                    className="table__row__heading"
+>
+                    Email
+</th>,
+                  <th
+                    className="table__row__heading"
+>
+                    Email Type
+</th>,
+                  <th
+                    className="table__row__heading"
+>
+                    Time Stamp
+</th>,
+                ],
+                "className": "table__row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Email",
+                    "className": "table__row__heading",
+                  },
+                  "ref": null,
+                  "rendered": "Email",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Email Type",
+                    "className": "table__row__heading",
+                  },
+                  "ref": null,
+                  "rendered": "Email Type",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Time Stamp",
+                    "className": "table__row__heading",
+                  },
+                  "ref": null,
+                  "rendered": "Time Stamp",
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb2171df5789191554bb",
+              "nodeType": "function",
+              "props": Object {
+                "email": "marcie.keller@puria.co.uk",
+                "emailType": "Newsletter",
+                "timestamp": 1534791896,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb212403c9cee7a0764f",
+              "nodeType": "function",
+              "props": Object {
+                "email": "sharp.sanchez@exiand.org",
+                "emailType": "Newsletter",
+                "timestamp": 1530837537,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21f838e0a5076ae5a7",
+              "nodeType": "function",
+              "props": Object {
+                "email": "coffey.bishop@poshome.tv",
+                "emailType": "POS Receipt",
+                "timestamp": 1529280627,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb211a2867ff74585065",
+              "nodeType": "function",
+              "props": Object {
+                "email": "oliver.lewis@kozgene.net",
+                "emailType": "Shipping Update",
+                "timestamp": 1526556220,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21b6cf1d7b2b78ba88",
+              "nodeType": "function",
+              "props": Object {
+                "email": "bonner.roth@hometown.ca",
+                "emailType": "Customer Password Reset",
+                "timestamp": 1519381111,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb216d1fcb619dbe8145",
+              "nodeType": "function",
+              "props": Object {
+                "email": "miriam.vasquez@playce.com",
+                "emailType": "Abandoned Checkout",
+                "timestamp": 1518621000,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb213530115c987aefcc",
+              "nodeType": "function",
+              "props": Object {
+                "email": "bettie.washington@eplosion.biz",
+                "emailType": "Order Confirmation",
+                "timestamp": 1515214989,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb2190c6d34ad86bb36c",
+              "nodeType": "function",
+              "props": Object {
+                "email": "lenora.marshall@furnitech.info",
+                "emailType": "Shipment Delivered",
+                "timestamp": 1512952979,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb217e7a0bdcf6e8545c",
+              "nodeType": "function",
+              "props": Object {
+                "email": "hester.rich@cemention.org",
+                "emailType": "Draft Invoice",
+                "timestamp": 1511440881,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21ea9816bc0195aa18",
+              "nodeType": "function",
+              "props": Object {
+                "email": "martina.salazar@cyclonica.tv",
+                "emailType": "Shipment Delivered",
+                "timestamp": 1510524050,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21540230519f464c96",
+              "nodeType": "function",
+              "props": Object {
+                "email": "webster.blackburn@dentrex.com",
+                "emailType": "Order Cancelled",
+                "timestamp": 1504189812,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb2135e3973fabb1cf41",
+              "nodeType": "function",
+              "props": Object {
+                "email": "campos.terry@tripsch.biz",
+                "emailType": "POS Receipt",
+                "timestamp": 1503391809,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb214bd32e72f5666a9b",
+              "nodeType": "function",
+              "props": Object {
+                "email": "whitney.joyce@zillidium.co.uk",
+                "emailType": "Shipment Sent",
+                "timestamp": 1493010976,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb2152b4f95afa96b211",
+              "nodeType": "function",
+              "props": Object {
+                "email": "kristy.bell@crustatia.org",
+                "emailType": "Gift Card",
+                "timestamp": 1490717952,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21333e572d2d44431c",
+              "nodeType": "function",
+              "props": Object {
+                "email": "virgie.chandler@nurali.biz",
+                "emailType": "Contact Customer",
+                "timestamp": 1480955338,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21ee79d9942947c9c4",
+              "nodeType": "function",
+              "props": Object {
+                "email": "myrtle.montgomery@emtrak.me",
+                "emailType": "Newsletter",
+                "timestamp": 1475241319,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb219e3a12f2cb00662d",
+              "nodeType": "function",
+              "props": Object {
+                "email": "jannie.house@bedder.us",
+                "emailType": "Shipment Sent",
+                "timestamp": 1470911209,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21829fb0e15bed5da0",
+              "nodeType": "function",
+              "props": Object {
+                "email": "regina.rocha@interfind.me",
+                "emailType": "Contact Customer",
+                "timestamp": 1466948304,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21df85df05ae8dce24",
+              "nodeType": "function",
+              "props": Object {
+                "email": "camille.farmer@terragen.us",
+                "emailType": "Shipping Confirmation",
+                "timestamp": 1455788435,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21d983142aa62016f5",
+              "nodeType": "function",
+              "props": Object {
+                "email": "beasley.frazier@furnafix.info",
+                "emailType": "Refund Notification",
+                "timestamp": 1452582699,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21734bf5bab7250352",
+              "nodeType": "function",
+              "props": Object {
+                "email": "cassandra.neal@pyramax.name",
+                "emailType": "Shipment Sent",
+                "timestamp": 1436589207,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb2145d1c16d45ebcea8",
+              "nodeType": "function",
+              "props": Object {
+                "email": "lucia.jensen@netur.biz",
+                "emailType": "Newsletter",
+                "timestamp": 1434489029,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21a5ce9636dc1d7e41",
+              "nodeType": "function",
+              "props": Object {
+                "email": "denise.williams@zoinage.us",
+                "emailType": "Refund Notification",
+                "timestamp": 1427677678,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb21caae970a5fbc9fb6",
+              "nodeType": "function",
+              "props": Object {
+                "email": "ursula.estes@zolarex.name",
+                "emailType": "Newsletter",
+                "timestamp": 1424134270,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb219559519edfaf281d",
+              "nodeType": "function",
+              "props": Object {
+                "email": "reynolds.moran@zytrac.ca",
+                "emailType": "Shipping Update",
+                "timestamp": 1403774908,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5b7ddb2100931b8e4b578a1b",
+              "nodeType": "function",
+              "props": Object {
+                "email": "anastasia.durham@ginkogene.net",
+                "emailType": "Order Cancelled",
+                "timestamp": 1394601773,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "tbody",
         },
-        Object {
-          "instance": null,
-          "key": "5b7ddb212403c9cee7a0764f",
-          "nodeType": "function",
-          "props": Object {
-            "email": "sharp.sanchez@exiand.org",
-            "emailType": "Newsletter",
-            "timestamp": 1530837537,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21f838e0a5076ae5a7",
-          "nodeType": "function",
-          "props": Object {
-            "email": "coffey.bishop@poshome.tv",
-            "emailType": "POS Receipt",
-            "timestamp": 1529280627,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb211a2867ff74585065",
-          "nodeType": "function",
-          "props": Object {
-            "email": "oliver.lewis@kozgene.net",
-            "emailType": "Shipping Update",
-            "timestamp": 1526556220,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21b6cf1d7b2b78ba88",
-          "nodeType": "function",
-          "props": Object {
-            "email": "bonner.roth@hometown.ca",
-            "emailType": "Customer Password Reset",
-            "timestamp": 1519381111,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb216d1fcb619dbe8145",
-          "nodeType": "function",
-          "props": Object {
-            "email": "miriam.vasquez@playce.com",
-            "emailType": "Abandoned Checkout",
-            "timestamp": 1518621000,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb213530115c987aefcc",
-          "nodeType": "function",
-          "props": Object {
-            "email": "bettie.washington@eplosion.biz",
-            "emailType": "Order Confirmation",
-            "timestamp": 1515214989,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb2190c6d34ad86bb36c",
-          "nodeType": "function",
-          "props": Object {
-            "email": "lenora.marshall@furnitech.info",
-            "emailType": "Shipment Delivered",
-            "timestamp": 1512952979,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb217e7a0bdcf6e8545c",
-          "nodeType": "function",
-          "props": Object {
-            "email": "hester.rich@cemention.org",
-            "emailType": "Draft Invoice",
-            "timestamp": 1511440881,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21ea9816bc0195aa18",
-          "nodeType": "function",
-          "props": Object {
-            "email": "martina.salazar@cyclonica.tv",
-            "emailType": "Shipment Delivered",
-            "timestamp": 1510524050,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21540230519f464c96",
-          "nodeType": "function",
-          "props": Object {
-            "email": "webster.blackburn@dentrex.com",
-            "emailType": "Order Cancelled",
-            "timestamp": 1504189812,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb2135e3973fabb1cf41",
-          "nodeType": "function",
-          "props": Object {
-            "email": "campos.terry@tripsch.biz",
-            "emailType": "POS Receipt",
-            "timestamp": 1503391809,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb214bd32e72f5666a9b",
-          "nodeType": "function",
-          "props": Object {
-            "email": "whitney.joyce@zillidium.co.uk",
-            "emailType": "Shipment Sent",
-            "timestamp": 1493010976,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb2152b4f95afa96b211",
-          "nodeType": "function",
-          "props": Object {
-            "email": "kristy.bell@crustatia.org",
-            "emailType": "Gift Card",
-            "timestamp": 1490717952,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21333e572d2d44431c",
-          "nodeType": "function",
-          "props": Object {
-            "email": "virgie.chandler@nurali.biz",
-            "emailType": "Contact Customer",
-            "timestamp": 1480955338,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21ee79d9942947c9c4",
-          "nodeType": "function",
-          "props": Object {
-            "email": "myrtle.montgomery@emtrak.me",
-            "emailType": "Newsletter",
-            "timestamp": 1475241319,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb219e3a12f2cb00662d",
-          "nodeType": "function",
-          "props": Object {
-            "email": "jannie.house@bedder.us",
-            "emailType": "Shipment Sent",
-            "timestamp": 1470911209,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21829fb0e15bed5da0",
-          "nodeType": "function",
-          "props": Object {
-            "email": "regina.rocha@interfind.me",
-            "emailType": "Contact Customer",
-            "timestamp": 1466948304,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21df85df05ae8dce24",
-          "nodeType": "function",
-          "props": Object {
-            "email": "camille.farmer@terragen.us",
-            "emailType": "Shipping Confirmation",
-            "timestamp": 1455788435,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21d983142aa62016f5",
-          "nodeType": "function",
-          "props": Object {
-            "email": "beasley.frazier@furnafix.info",
-            "emailType": "Refund Notification",
-            "timestamp": 1452582699,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21734bf5bab7250352",
-          "nodeType": "function",
-          "props": Object {
-            "email": "cassandra.neal@pyramax.name",
-            "emailType": "Shipment Sent",
-            "timestamp": 1436589207,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb2145d1c16d45ebcea8",
-          "nodeType": "function",
-          "props": Object {
-            "email": "lucia.jensen@netur.biz",
-            "emailType": "Newsletter",
-            "timestamp": 1434489029,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21a5ce9636dc1d7e41",
-          "nodeType": "function",
-          "props": Object {
-            "email": "denise.williams@zoinage.us",
-            "emailType": "Refund Notification",
-            "timestamp": 1427677678,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb21caae970a5fbc9fb6",
-          "nodeType": "function",
-          "props": Object {
-            "email": "ursula.estes@zolarex.name",
-            "emailType": "Newsletter",
-            "timestamp": 1424134270,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb219559519edfaf281d",
-          "nodeType": "function",
-          "props": Object {
-            "email": "reynolds.moran@zytrac.ca",
-            "emailType": "Shipping Update",
-            "timestamp": 1403774908,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "5b7ddb2100931b8e4b578a1b",
-          "nodeType": "function",
-          "props": Object {
-            "email": "anastasia.durham@ginkogene.net",
-            "emailType": "Order Cancelled",
-            "timestamp": 1394601773,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
+        "type": "table",
+      },
       "type": "div",
     },
   ],

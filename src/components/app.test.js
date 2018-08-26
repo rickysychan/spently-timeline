@@ -15,6 +15,6 @@ describe('app', () => {
         })
     })
     it('renders a list of emails from data', () => {
-        expect(app.find('.table-timeline').children().length).toEqual(data.length)
+        expect(app.find('.timeline-details').children().length).toEqual(data.length + 1)
     })
 })

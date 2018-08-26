@@ -1,11 +1,11 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import Table from './Table'
+import TableDetails from './TableDetails'
 
-const table = shallow(<Table />)
+const tableDetails = shallow(<TableDetails />)
 
 describe('Table', () => {
     it('should render properly', () => {
-        expect(table).toMatchSnapshot()
+        expect(tableDetails).toMatchSnapshot()
     })
 })

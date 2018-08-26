@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TableDetails
+    email="moo@gmail.com"
+    emailType="mooo"
+    timestamp={123}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <td
+          className="table__row__data"
+>
+          moo@gmail.com
+</td>,
+        <td
+          className="table__row__data"
+>
+          mooo
+</td>,
+        <td
+          className="table__row__data"
+>
+          Dec-31-1969 19:02:03
+</td>,
+      ],
+      "className": "table__row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "moo@gmail.com",
+          "className": "table__row__data",
+        },
+        "ref": null,
+        "rendered": "moo@gmail.com",
+        "type": "td",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "mooo",
+          "className": "table__row__data",
+        },
+        "ref": null,
+        "rendered": "mooo",
+        "type": "td",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Dec-31-1969 19:02:03",
+          "className": "table__row__data",
+        },
+        "ref": null,
+        "rendered": "Dec-31-1969 19:02:03",
+        "type": "td",
+      },
+    ],
+    "type": "tr",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <td
+            className="table__row__data"
+>
+            moo@gmail.com
+</td>,
+          <td
+            className="table__row__data"
+>
+            mooo
+</td>,
+          <td
+            className="table__row__data"
+>
+            Dec-31-1969 19:02:03
+</td>,
+        ],
+        "className": "table__row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "moo@gmail.com",
+            "className": "table__row__data",
+          },
+          "ref": null,
+          "rendered": "moo@gmail.com",
+          "type": "td",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "mooo",
+            "className": "table__row__data",
+          },
+          "ref": null,
+          "rendered": "mooo",
+          "type": "td",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Dec-31-1969 19:02:03",
+            "className": "table__row__data",
+          },
+          "ref": null,
+          "rendered": "Dec-31-1969 19:02:03",
+          "type": "td",
+        },
+      ],
+      "type": "tr",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
