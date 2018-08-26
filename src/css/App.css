@@ -28,3 +28,12 @@ table{
     text-align: right;
     padding-right: 5px;
 }
+.subheading-email:hover{
+    background-color: var(--teal-light)
+}
+.subheading-emailType:hover{
+    background-color: var(--teal-light)
+}
+.subheading-timestamp:hover{
+    background-color: var(--teal-light)
+}

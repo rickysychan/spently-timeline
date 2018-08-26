@@ -19,6 +19,11 @@ export default class App extends Component{
         const sortedData = sortAlphabetically(Data, param)
         this.setState({ data: sortedData})
     }
+
+    sortByHighest(param){
+        const sortedData = sortByHighest(Data, param)
+        this.setState({ data: sortedData})
+    }
     
     render(){
         return(
@@ -34,7 +39,9 @@ export default class App extends Component{
                                 <th className='table__row__heading subheading-right subheading-emailType'
                                     onClick={() => this.sortByAlphabet('emailType')}
                                 >Email Type</th>
-                                <th className='table__row__heading subheading-right subheading-timestamp'>Time Stamp</th>
+                                <th className='table__row__heading subheading-right subheading-timestamp'
+                                    onClick={() => this.sortByHighest('timestamp') }
+                                >Time Stamp</th>
                             </tr>
                             { this.state.data.map( client => {
                                     return(
