@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { convertTime } from '../helper'
-import '../css/Table.css'
+import '../css/TableDetails.css'
+import '../css/colors.css'
+
 
 const TableDetails = ({ email, emailType, timestamp }) => 
-            <tr className="table__row">
+            <tr className="table__row" id='table-details'>
                 <td className="table__row__data">{email}</td>
-                <td className="table__row__data">{emailType}</td>
-                <td className="table__row__data">{convertTime(timestamp)}</td>
+                <td className='table__row__data secondary-detail'>{emailType}</td>
+                <td className='table__row__data secondary-detail'>{convertTime(timestamp)}</td>
             </tr>
 
 TableDetails.propTypes = {
