@@ -12,3 +12,5 @@ This component will be a timeline where Shopify store owners will be able to see
 1) npm run test -- --coverage
 
 Author: Ricky Chan
+
+Note: The Data provided was not changed in any way.
