@@ -1,4 +1,4 @@
-import { convertTime, sortByHighest, sortAlphabetically } from './index'
+import { convertTime, sortByHighest, sortAlphabetically, letterCompare } from './index'
 
 describe('Time Converter', () => {
     it('converts time from unix to readable time', () => {
@@ -20,5 +20,19 @@ describe('Sort Alphabetically by parameter', () => {
         const sample = [ {m: 'noop'}, {m: "Koop"}, {m: "Boop"} ]
         const expectedOutput = [ {m: 'Boop'}, {m: "Koop"}, {m: "noop"} ]
         expect(sortAlphabetically(sample, 'm')).toEqual(expectedOutput)
+    })
+})
+
+describe('compare letters alphabetically', () => {
+    const text1 = 'a'
+    const text2 = 'b'
+    it('should return -1 if the first letter input is greater than the second', () => {
+        expect(letterCompare(text1, text2)).toEqual(-1)
+    })
+    it('should return -1 if the second letter input is greater than the first', () => {
+        expect(letterCompare(text2, text1)).toEqual(1)
+    })
+    it('should return 0 if the first and second letter is the same', () => {
+        expect(letterCompare(text1, text1)).toEqual(0)
     })
 })

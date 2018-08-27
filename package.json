@@ -24,7 +24,8 @@
     "collectCoverageFrom": [
       "src/**/*.js",
       "!src/index.js",
-      "!src/setupTests.js"
+      "!src/setupTests.js",
+      "!src/ErrorBoundary/ErrorBoundary.js"
     ]
   }
 }

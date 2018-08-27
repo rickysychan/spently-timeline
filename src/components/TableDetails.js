@@ -4,7 +4,6 @@ import { convertTime } from '../helper'
 import '../css/TableDetails.css'
 import '../css/colors.css'
 
-
 const TableDetails = ({ email, emailType, timestamp }) => 
             <tr className="table__row" id='table-details'>
                 <td className="table__row__data">{email}</td>
