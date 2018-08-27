@@ -12,7 +12,6 @@ export default class App extends Component{
         super(props);
         this.state = {
             data: [],
-            hasError: false
         }
         this.sortByAlphabet = this.sortByAlphabet.bind(this);
         this.sortByHighest = this.sortByHighest.bind(this);
