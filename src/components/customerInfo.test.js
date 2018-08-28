@@ -14,7 +14,7 @@ const mockSelectCustomer = jest.fn()
 const customerInfo = shallow(<CustomerInfo 
                                 selectedCustomer={sample} 
                                 selectCustomer={mockSelectCustomer}/>)
-const customerInfoEmpty = shallow(<CustomerInfo />)
+const customerInfoEmpty = shallow(<CustomerInfo selectCustomer={mockSelectCustomer}/>)
 
 describe('Client Info', () => {
     it('should render properly', () => {

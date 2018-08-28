@@ -15,7 +15,7 @@ describe('Table', () => {
     })
     describe('when a user clicks a row', () => {
         it('should invoke the selectCustomer method from `props`', () => {
-            tableDetails.find('#table-details').simulate('click')
+            tableDetails.find('.table-details').simulate('click')
             expect(mockSelectCustomer).toHaveBeenCalledWith(mockCustomer)
         })
     })

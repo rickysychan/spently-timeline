@@ -12,7 +12,7 @@ const customerInfo = props => {
             return(
                 <div className='customer-info'>
                     <img className='customerInfo-image' src={props.selectedCustomer.picture} alt='customer'/>
-                    <h6 className='customerInfo-details'>Full Name: {props.selectedCustomer.name.first + " " + props.selectedCustomer.name.last}</h6>
+                    <h6 className='customerInfo-details' id='customerInfo-name'>Full Name: {props.selectedCustomer.name.first + " " + props.selectedCustomer.name.last}</h6>
                     <h6 className='customerInfo-details'>Balance: {props.selectedCustomer.balance}</h6>
                     <h6 className='customerInfo-details'>Active: {props.selectedCustomer.isActive.toString()}</h6>
                     <h6 className='customerInfo-details'>Age: {props.selectedCustomer.age}</h6>

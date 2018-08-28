@@ -1534,29 +1534,28 @@ ShallowWrapper {
       "children": <table
         cellPadding="0"
         cellSpacing="0"
-        className="table--card emailTable-table"
+        className="emailTable-table"
 >
         <tbody
                 className="emailTable-details"
         >
                 <tr
-                        className="table__row"
-                        id="emailTable-table-header"
+                        className="emailTable-table-header"
                 >
                         <th
-                                className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                                className="emailTable-subheading-left  emailTable-subheading-email"
                                 onClick={[Function]}
                         >
                                 Email
                         </th>
                         <th
-                                className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                                className="emailTable-subheading-right  emailTable-subheading-emailType"
                                 onClick={[Function]}
                         >
                                 Email Type
                         </th>
                         <th
-                                className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                                className="emailTable-subheading-right emailTable-subheading-timestamp"
                                 onClick={[Function]}
                         >
                                 Time Stamp
@@ -3294,23 +3293,22 @@ ShallowWrapper {
           className="emailTable-details"
 >
           <tr
-                    className="table__row"
-                    id="emailTable-table-header"
+                    className="emailTable-table-header"
           >
                     <th
-                              className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                              className="emailTable-subheading-left  emailTable-subheading-email"
                               onClick={[Function]}
                     >
                               Email
                     </th>
                     <th
-                              className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                              className="emailTable-subheading-right  emailTable-subheading-emailType"
                               onClick={[Function]}
                     >
                               Email Type
                     </th>
                     <th
-                              className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                              className="emailTable-subheading-right emailTable-subheading-timestamp"
                               onClick={[Function]}
                     >
                               Time Stamp
@@ -5033,7 +5031,7 @@ ShallowWrapper {
                     timestamp={1530837537}
           />
 </tbody>,
-        "className": "table--card emailTable-table",
+        "className": "emailTable-table",
       },
       "ref": null,
       "rendered": Object {
@@ -5043,23 +5041,22 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <tr
-              className="table__row"
-              id="emailTable-table-header"
+              className="emailTable-table-header"
 >
               <th
-                            className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                            className="emailTable-subheading-left  emailTable-subheading-email"
                             onClick={[Function]}
               >
                             Email
               </th>
               <th
-                            className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                            className="emailTable-subheading-right  emailTable-subheading-emailType"
                             onClick={[Function]}
               >
                             Email Type
               </th>
               <th
-                            className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                            className="emailTable-subheading-right emailTable-subheading-timestamp"
                             onClick={[Function]}
               >
                             Time Stamp
@@ -6795,26 +6792,25 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <th
-                  className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                  className="emailTable-subheading-left  emailTable-subheading-email"
                   onClick={[Function]}
 >
                   Email
 </th>,
                 <th
-                  className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                  className="emailTable-subheading-right  emailTable-subheading-emailType"
                   onClick={[Function]}
 >
                   Email Type
 </th>,
                 <th
-                  className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                  className="emailTable-subheading-right emailTable-subheading-timestamp"
                   onClick={[Function]}
 >
                   Time Stamp
 </th>,
               ],
-              "className": "table__row",
-              "id": "emailTable-table-header",
+              "className": "emailTable-table-header",
             },
             "ref": null,
             "rendered": Array [
@@ -6824,7 +6820,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Email",
-                  "className": "table__row__heading  emailTable-subheading-left  emailTable-subheading-email",
+                  "className": "emailTable-subheading-left  emailTable-subheading-email",
                   "onClick": [Function],
                 },
                 "ref": null,
@@ -6837,7 +6833,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Email Type",
-                  "className": "table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType",
+                  "className": "emailTable-subheading-right  emailTable-subheading-emailType",
                   "onClick": [Function],
                 },
                 "ref": null,
@@ -6850,7 +6846,7 @@ ShallowWrapper {
                 "nodeType": "host",
                 "props": Object {
                   "children": "Time Stamp",
-                  "className": "table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp",
+                  "className": "emailTable-subheading-right emailTable-subheading-timestamp",
                   "onClick": [Function],
                 },
                 "ref": null,
@@ -8748,29 +8744,28 @@ ShallowWrapper {
         "children": <table
           cellPadding="0"
           cellSpacing="0"
-          className="table--card emailTable-table"
+          className="emailTable-table"
 >
           <tbody
                     className="emailTable-details"
           >
                     <tr
-                              className="table__row"
-                              id="emailTable-table-header"
+                              className="emailTable-table-header"
                     >
                               <th
-                                        className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                                        className="emailTable-subheading-left  emailTable-subheading-email"
                                         onClick={[Function]}
                               >
                                         Email
                               </th>
                               <th
-                                        className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                                        className="emailTable-subheading-right  emailTable-subheading-emailType"
                                         onClick={[Function]}
                               >
                                         Email Type
                               </th>
                               <th
-                                        className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                                        className="emailTable-subheading-right emailTable-subheading-timestamp"
                                         onClick={[Function]}
                               >
                                         Time Stamp
@@ -10508,23 +10503,22 @@ ShallowWrapper {
             className="emailTable-details"
 >
             <tr
-                        className="table__row"
-                        id="emailTable-table-header"
+                        className="emailTable-table-header"
             >
                         <th
-                                    className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                                    className="emailTable-subheading-left  emailTable-subheading-email"
                                     onClick={[Function]}
                         >
                                     Email
                         </th>
                         <th
-                                    className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                                    className="emailTable-subheading-right  emailTable-subheading-emailType"
                                     onClick={[Function]}
                         >
                                     Email Type
                         </th>
                         <th
-                                    className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                                    className="emailTable-subheading-right emailTable-subheading-timestamp"
                                     onClick={[Function]}
                         >
                                     Time Stamp
@@ -12247,7 +12241,7 @@ ShallowWrapper {
                         timestamp={1530837537}
             />
 </tbody>,
-          "className": "table--card emailTable-table",
+          "className": "emailTable-table",
         },
         "ref": null,
         "rendered": Object {
@@ -12257,23 +12251,22 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <tr
-                className="table__row"
-                id="emailTable-table-header"
+                className="emailTable-table-header"
 >
                 <th
-                                className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                                className="emailTable-subheading-left  emailTable-subheading-email"
                                 onClick={[Function]}
                 >
                                 Email
                 </th>
                 <th
-                                className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                                className="emailTable-subheading-right  emailTable-subheading-emailType"
                                 onClick={[Function]}
                 >
                                 Email Type
                 </th>
                 <th
-                                className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                                className="emailTable-subheading-right emailTable-subheading-timestamp"
                                 onClick={[Function]}
                 >
                                 Time Stamp
@@ -14009,26 +14002,25 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <th
-                    className="table__row__heading  emailTable-subheading-left  emailTable-subheading-email"
+                    className="emailTable-subheading-left  emailTable-subheading-email"
                     onClick={[Function]}
 >
                     Email
 </th>,
                   <th
-                    className="table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType"
+                    className="emailTable-subheading-right  emailTable-subheading-emailType"
                     onClick={[Function]}
 >
                     Email Type
 </th>,
                   <th
-                    className="table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp"
+                    className="emailTable-subheading-right emailTable-subheading-timestamp"
                     onClick={[Function]}
 >
                     Time Stamp
 </th>,
                 ],
-                "className": "table__row",
-                "id": "emailTable-table-header",
+                "className": "emailTable-table-header",
               },
               "ref": null,
               "rendered": Array [
@@ -14038,7 +14030,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Email",
-                    "className": "table__row__heading  emailTable-subheading-left  emailTable-subheading-email",
+                    "className": "emailTable-subheading-left  emailTable-subheading-email",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -14051,7 +14043,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Email Type",
-                    "className": "table__row__heading  emailTable-subheading-right  emailTable-subheading-emailType",
+                    "className": "emailTable-subheading-right  emailTable-subheading-emailType",
                     "onClick": [Function],
                   },
                   "ref": null,
@@ -14064,7 +14056,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "children": "Time Stamp",
-                    "className": "table__row__heading  emailTable-subheading-right emailTable-subheading-timestamp",
+                    "className": "emailTable-subheading-right emailTable-subheading-timestamp",
                     "onClick": [Function],
                   },
                   "ref": null,

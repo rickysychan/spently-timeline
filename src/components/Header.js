@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import '../css/Header.css'
+import '../css/header.css'
 import '../css/colors.css'
 
 const Header = ({ title }) => 

@@ -46,6 +46,7 @@ ShallowWrapper {
 />,
         <h6
           className="customerInfo-details"
+          id="customerInfo-name"
 >
           Full Name: 
           Eric hartman
@@ -145,6 +146,7 @@ ShallowWrapper {
             "Eric hartman",
           ],
           "className": "customerInfo-details",
+          "id": "customerInfo-name",
         },
         "ref": null,
         "rendered": Array [
@@ -423,6 +425,7 @@ ShallowWrapper {
 />,
           <h6
             className="customerInfo-details"
+            id="customerInfo-name"
 >
             Full Name: 
             Eric hartman
@@ -522,6 +525,7 @@ ShallowWrapper {
               "Eric hartman",
             ],
             "className": "customerInfo-details",
+            "id": "customerInfo-name",
           },
           "ref": null,
           "rendered": Array [

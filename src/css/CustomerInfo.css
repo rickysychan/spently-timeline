@@ -1,9 +1,7 @@
 .customer-info{
     font-family: Karla, Helvetica, Arial, sans-serif;
     transform: translateY(1em);
-    z-index: -1;
-    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
-    margin-top: 0px;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, linear 0.01s;
 }
 
 .customerInfo-image{
@@ -38,4 +36,8 @@
     margin:0 auto;
     display:block;
     margin-bottom: 25px;
+}
+
+#customerInfo-name{
+    margin-top: 0px;    
 }

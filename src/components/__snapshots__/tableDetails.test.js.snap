@@ -28,23 +28,22 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <td
-          className="table__row__data tableDetails-email"
+          className="tableDetails-email"
 >
           moo@gmail.com
 </td>,
         <td
-          className="table__row__data tableDetails-secondary-detail"
+          className="tableDetails-secondary-detail"
 >
           mooo
 </td>,
         <td
-          className="table__row__data tableDetails-secondary-detail"
+          className="tableDetails-secondary-detail"
 >
           Dec-31-1969 19:02:03
 </td>,
       ],
-      "className": "table__row",
-      "id": "table-details",
+      "className": "table-details",
       "onClick": [Function],
     },
     "ref": null,
@@ -55,7 +54,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "moo@gmail.com",
-          "className": "table__row__data tableDetails-email",
+          "className": "tableDetails-email",
         },
         "ref": null,
         "rendered": "moo@gmail.com",
@@ -67,7 +66,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "mooo",
-          "className": "table__row__data tableDetails-secondary-detail",
+          "className": "tableDetails-secondary-detail",
         },
         "ref": null,
         "rendered": "mooo",
@@ -79,7 +78,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Dec-31-1969 19:02:03",
-          "className": "table__row__data tableDetails-secondary-detail",
+          "className": "tableDetails-secondary-detail",
         },
         "ref": null,
         "rendered": "Dec-31-1969 19:02:03",
@@ -96,23 +95,22 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <td
-            className="table__row__data tableDetails-email"
+            className="tableDetails-email"
 >
             moo@gmail.com
 </td>,
           <td
-            className="table__row__data tableDetails-secondary-detail"
+            className="tableDetails-secondary-detail"
 >
             mooo
 </td>,
           <td
-            className="table__row__data tableDetails-secondary-detail"
+            className="tableDetails-secondary-detail"
 >
             Dec-31-1969 19:02:03
 </td>,
         ],
-        "className": "table__row",
-        "id": "table-details",
+        "className": "table-details",
         "onClick": [Function],
       },
       "ref": null,
@@ -123,7 +121,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "moo@gmail.com",
-            "className": "table__row__data tableDetails-email",
+            "className": "tableDetails-email",
           },
           "ref": null,
           "rendered": "moo@gmail.com",
@@ -135,7 +133,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "mooo",
-            "className": "table__row__data tableDetails-secondary-detail",
+            "className": "tableDetails-secondary-detail",
           },
           "ref": null,
           "rendered": "mooo",
@@ -147,7 +145,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Dec-31-1969 19:02:03",
-            "className": "table__row__data tableDetails-secondary-detail",
+            "className": "tableDetails-secondary-detail",
           },
           "ref": null,
           "rendered": "Dec-31-1969 19:02:03",
