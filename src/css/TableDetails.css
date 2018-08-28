@@ -1,15 +1,16 @@
-tr{
+#table-details{
     font-size: 16px;
     font-family: Karla, Helvetica, Arial, sans-serif;
 }
-td{
-    padding: 5px;
-}
-tr:nth-child(even){
+#table-details:nth-child(even){
     background-color: var(--light-gray);    
 }
-.secondary-detail{
+.tableDetails-secondary-detail{
     text-align: right;
+    padding: 5px;
+}
+.tableDetails-email{
+    padding: 5px;
 }
 #table-details:hover{
     background-color: var(--teal-light);

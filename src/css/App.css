@@ -1,39 +1,15 @@
-.table{
-    width: 100%;
-    height: 300px;
-    border-color: var(--border-color);
-    background-color: white;
-    white-space: nowrap;
-    overflow: scroll;
-    border-top: 2px solid var(--light-gray);
-}
-.card{
+.app-card{
     border-spacing: 0;
     border: 1px solid;
     border-color: var(--border-color);
     background-color: white;
     border-radius: 5px;    
 }
-table{
+.app-header{
+    border-bottom: 2px solid var(--light-gray);
+    margin-bottom: 5px;
     width: 100%;
+    background-color: white;
+    font-family: Karla, Helvetica, Arial, sans-serif;
 }
-#table-header{
-    font-size: 20px; 
-}
-.subheading-left{
-    text-align: left;
-    padding-left: 5px;
-}
-.subheading-right{
-    text-align: right;
-    padding-right: 5px;
-}
-.subheading-email:hover{
-    background-color: var(--teal-light)
-}
-.subheading-emailType:hover{
-    background-color: var(--teal-light)
-}
-.subheading-timestamp:hover{
-    background-color: var(--teal-light)
-}
+

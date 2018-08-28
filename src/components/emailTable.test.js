@@ -15,27 +15,27 @@ let emailTable = shallow(
 
 describe('Email Table', () => {
     it('should render properly', () => {
-        expect(emailTable.find('.table').exists()).toBe(true)
+        expect(emailTable).toMatchSnapshot()
     })
 
     it('renders a list of emails from data', () => {
-        expect(emailTable.find('.timeline-details').children().length).toEqual(data.length + 1)
+        expect(emailTable.find('.emailTable-details').children().length).toEqual(data.length + 1)
     })
     describe('when a user clicks the email subheader', () => {
         it('should invoke the sortByAlphabet function in `props`', () => {
-            emailTable.find('.subheading-email').simulate('click')
+            emailTable.find('.emailTable-subheading-email').simulate('click')
             expect(mockSortByAlphabet).toHaveBeenCalledWith('email')
         })    
     })
     describe('when a user clicks the emailType subheader', () => {
         it('should invoke the sortByAlphabet function in `props`', () => {
-            emailTable.find('.subheading-emailType').simulate('click')
+            emailTable.find('.emailTable-subheading-emailType').simulate('click')
             expect(mockSortByAlphabet).toHaveBeenCalledWith('emailType')
         })    
     })
     describe('when a user clicks the TimeStamp subheader', () => {
         it('should invoke the sortByAlphabet function in `props`', () => {
-            emailTable.find('.subheading-timestamp').simulate('click')
+            emailTable.find('.emailTable-subheading-timestamp').simulate('click')
             expect(mockSortByHighest).toHaveBeenCalledWith('timestamp')
         })    
     })

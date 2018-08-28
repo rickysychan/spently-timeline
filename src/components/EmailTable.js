@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import TableDetails from './TableDetails'
+import '../css/EmailTable.css'
 
 export default class EmailTable extends Component {
     componentDidMount() {
@@ -8,27 +9,35 @@ export default class EmailTable extends Component {
     }
     render(){
             return(
-                <div className='table'>    
-                    <table className="table--card" cellSpacing="0" cellPadding="0"> 
-                        <tbody className='timeline-details'>
-                            <tr className="table__row" id='table-header'>
-                                <th className='table__row__heading subheading-left subheading-email'
+                <div className='emailTable-table'>    
+                    <table className="table--card emailTable-table" cellSpacing="0" cellPadding="0"> 
+                        <tbody className='emailTable-details'>
+                            <tr className="table__row" id='emailTable-table-header'>
+                                <th className='table__row__heading 
+                                               emailTable-subheading-left 
+                                               emailTable-subheading-email'
                                     onClick={() => this.props.sortByAlphabet('email')}
                                 >Email</th>
-                                <th className='table__row__heading subheading-right subheading-emailType'
+                                <th className='table__row__heading 
+                                               emailTable-subheading-right 
+                                               emailTable-subheading-emailType'
                                     onClick={() => this.props.sortByAlphabet('emailType')}
                                 >Email Type</th>
-                                <th className='table__row__heading subheading-right subheading-timestamp'
+                                <th className='table__row__heading 
+                                               emailTable-subheading-right
+                                               emailTable-subheading-timestamp'
                                     onClick={() => this.props.sortByHighest('timestamp') }
                                 >Time Stamp</th>
                             </tr>
-                            { this.props.data.map( client => {
+                            { this.props.data.map( customer => {
                                     return(
                                         <TableDetails 
-                                            key={client._id}
-                                            email={client.email} 
-                                            emailType={client.emailType}
-                                            timestamp={parseInt((client.timestamp/1000).toString(), 10)}
+                                            key={customer._id}
+                                            email={customer.email} 
+                                            emailType={customer.emailType}
+                                            timestamp={parseInt((customer.timestamp/1000).toString(), 10)}
+                                            customer={customer}
+                                            selectCustomer={this.props.selectCustomer}
                                         />
                                     )
                                 })

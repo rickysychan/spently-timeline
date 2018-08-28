@@ -1,0 +1,33 @@
+.emailTable-table{
+    width: 100%;
+    height: 300px;
+    border-color: var(--border-color);
+    background-color: white;
+    white-space: nowrap;
+    overflow: scroll;
+    border-top: 1px solid var(--light-gray);
+    border-bottom: 1px solid var(--light-gray);
+}
+#emailTable-table-header{
+    font-size: 20px; 
+    font-family: Karla, Helvetica, Arial, sans-serif;
+}
+.emailTable-subheading-left{
+    text-align: left;
+    padding-left: 5px;
+}
+.emailTable-subheading-right{
+    text-align: right;
+    padding-right: 5px;
+}
+
+
+.emailTable-subheading-email:hover{
+    background-color: var(--teal-light);
+}
+.emailTable-subheading-emailType:hover{
+    background-color: var(--teal-light)
+}
+.emailTable-subheading-timestamp:hover{
+    background-color: var(--teal-light)
+}

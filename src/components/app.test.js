@@ -27,4 +27,11 @@ describe('app', () => {
             expect(app.state().data).toEqual(sortByHighest(data, 'timestamp'))
         })
     })
+    describe('when the selectCustomer function is invoked', () => {
+        it('should set the argument as data in `state`', () => {
+            const sample = { name: "Eric", age: 29, active: false}
+            app.instance().selectCustomer(sample)
+            expect(app.state().selectedCustomer).toEqual(sample)
+        })
+    })
 })

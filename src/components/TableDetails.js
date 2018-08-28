@@ -4,11 +4,11 @@ import { convertTime } from '../helper'
 import '../css/TableDetails.css'
 import '../css/colors.css'
 
-const TableDetails = ({ email, emailType, timestamp }) => 
-            <tr className="table__row" id='table-details'>
-                <td className="table__row__data">{email}</td>
-                <td className='table__row__data secondary-detail'>{emailType}</td>
-                <td className='table__row__data secondary-detail'>{convertTime(timestamp)}</td>
+const TableDetails = ({ email, emailType, timestamp, selectCustomer, customer }) => 
+            <tr className="table__row" id='table-details' onClick={() => selectCustomer(customer)}>
+                <td className="table__row__data tableDetails-email">{email}</td>
+                <td className='table__row__data tableDetails-secondary-detail'>{emailType}</td>
+                <td className='table__row__data tableDetails-secondary-detail'>{convertTime(timestamp)}</td>
             </tr>
 
 TableDetails.propTypes = {

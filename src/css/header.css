@@ -1,18 +1,12 @@
-.header{
-    border-bottom: 2px solid var(--light-gray);
-    margin-bottom: 5px;
-    width: 100%;
-    background-color: white;
-    font-family: Karla, Helvetica, Arial, sans-serif;
-}
-
-h5{
+.header-date{
     float: right;
     padding-right: 10px;
-    color: var(--date-light-gray)
+    color: var(--date-light-gray);
+    vertical-align: middle;
+    margin: 15px;
 }
 
-h2{
+.header-title{
     padding-left: 10px;
     border-bottom-width: 1px;
     font-size: 2rem;

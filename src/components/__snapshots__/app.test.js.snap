@@ -18,7 +18,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Header
-          className="header"
+          className="app-header"
           title="Email Timeline"
 />,
         <ErrorBoundary>
@@ -1535,12 +1535,17 @@ ShallowWrapper {
                                         },
                                       ]
                     }
+                    selectCustomer={[Function]}
                     sortByAlphabet={[Function]}
                     sortByHighest={[Function]}
           />
 </ErrorBoundary>,
+        <ClientInfo
+          selectCustomer={[Function]}
+          selectedCustomer={null}
+/>,
       ],
-      "className": "card",
+      "className": "app-card",
     },
     "ref": null,
     "rendered": Array [
@@ -1549,7 +1554,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "className": "header",
+          "className": "app-header",
           "title": "Email Timeline",
         },
         "ref": null,
@@ -3074,6 +3079,7 @@ ShallowWrapper {
                                     },
                                   ]
             }
+            selectCustomer={[Function]}
             sortByAlphabet={[Function]}
             sortByHighest={[Function]}
 />,
@@ -4594,6 +4600,7 @@ ShallowWrapper {
                 "timestamp": 1394601773478,
               },
             ],
+            "selectCustomer": [Function],
             "sortByAlphabet": [Function],
             "sortByHighest": [Function],
           },
@@ -4601,6 +4608,18 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "selectCustomer": [Function],
+          "selectedCustomer": null,
+        },
+        "ref": null,
+        "rendered": null,
         "type": [Function],
       },
     ],
@@ -4614,7 +4633,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Header
-            className="header"
+            className="app-header"
             title="Email Timeline"
 />,
           <ErrorBoundary>
@@ -6131,12 +6150,17 @@ ShallowWrapper {
                                                 },
                                               ]
                         }
+                        selectCustomer={[Function]}
                         sortByAlphabet={[Function]}
                         sortByHighest={[Function]}
             />
 </ErrorBoundary>,
+          <ClientInfo
+            selectCustomer={[Function]}
+            selectedCustomer={null}
+/>,
         ],
-        "className": "card",
+        "className": "app-card",
       },
       "ref": null,
       "rendered": Array [
@@ -6145,7 +6169,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "className": "header",
+            "className": "app-header",
             "title": "Email Timeline",
           },
           "ref": null,
@@ -7670,6 +7694,7 @@ ShallowWrapper {
                                           },
                                         ]
               }
+              selectCustomer={[Function]}
               sortByAlphabet={[Function]}
               sortByHighest={[Function]}
 />,
@@ -9190,6 +9215,7 @@ ShallowWrapper {
                   "timestamp": 1394601773478,
                 },
               ],
+              "selectCustomer": [Function],
               "sortByAlphabet": [Function],
               "sortByHighest": [Function],
             },
@@ -9197,6 +9223,18 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "selectCustomer": [Function],
+            "selectedCustomer": null,
+          },
+          "ref": null,
+          "rendered": null,
           "type": [Function],
         },
       ],
