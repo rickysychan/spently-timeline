@@ -1,8 +1,8 @@
-#table-details{
+.table-details{
     font-size: 16px;
     font-family: Karla, Helvetica, Arial, sans-serif;
 }
-#table-details:nth-child(even){
+.table-details:nth-child(even){
     background-color: var(--light-gray);    
 }
 .tableDetails-secondary-detail{
@@ -12,6 +12,6 @@
 .tableDetails-email{
     padding: 5px;
 }
-#table-details:hover{
+.table-details:hover{
     background-color: var(--teal-light);
 }

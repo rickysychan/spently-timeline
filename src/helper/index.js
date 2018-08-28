@@ -30,7 +30,7 @@ export const convertTime = unixTime => {
  return convdataTime
 }
 
-export const sortByHighest = (array, key) => array.sort((a, b) => b[key] - a[key])
+export const sortNumerically = (array, key) => array.sort((a, b) => b[key] - a[key])
 
 export const sortAlphabetically = (array, key) => array.sort(function(a, b) {
     var textA = a[key].toUpperCase();

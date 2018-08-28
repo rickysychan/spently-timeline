@@ -20,10 +20,9 @@ export default class ErrorBoundary extends Component {
   render () {
     if (this.state.hasError) {
       return (
-        <div className='table error-boundary'>
+        <div className='emailTable-table error-boundary'>
           <Logo className='logo'/>
           <h1>Uh-Oh! Something went wrong.</h1>
-            <logo />
             <h3>{this.state.error}</h3>
             <h4>Info: {this.state.info}</h4>
         </div>

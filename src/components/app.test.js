@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import App from './App'
 import data from '../data/data.json'
-import {sortAlphabetically, sortByHighest} from '../helper/index'
+import {sortAlphabetically, sortNumerically} from '../helper/index'
 
 const app = shallow(<App />)
 
@@ -21,10 +21,10 @@ describe('app', () => {
             expect(app.state().data).toEqual(sortAlphabetically(data, 'email'))
         })
     })
-    describe('when the SortByHighest function is invoked with a parameter', () => {
+    describe('when the sortByHighest function is invoked with a parameter', () => {
         it('should sort an array numerically and set in `state`', () => {
-            app.instance().sortByHighest('timestamp')
-            expect(app.state().data).toEqual(sortByHighest(data, 'timestamp'))
+            app.instance().sortByHighestNumber('timestamp')
+            expect(app.state().data).toEqual(sortNumerically(data, 'timestamp'))
         })
     })
     describe('when the selectCustomer function is invoked', () => {

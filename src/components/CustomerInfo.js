@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import '../css/CustomerInfo.css'
 
-const ClientInfo = props => {
+const customerInfo = props => {
     if(!props.selectedCustomer){
         return(
             <div className='customerInfo-no-customer'></div>
@@ -33,4 +34,9 @@ const ClientInfo = props => {
         }
     }
 
-export default ClientInfo
+customerInfo.propTypes = {
+    selectedCustomer: PropTypes.object,
+    selectCustomer: PropTypes.func.isRequired
+}
+
+export default customerInfo

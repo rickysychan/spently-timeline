@@ -4,13 +4,13 @@ import EmailTable from './EmailTable'
 import data from '../data/data.json'
 
 let mockSortByAlphabet = jest.fn()
-let mockSortByHighest = jest.fn()
+let mockSortByHighestNumber = jest.fn()
 
 let emailTable = shallow(
     <EmailTable 
         data={data} 
         sortByAlphabet={mockSortByAlphabet} 
-        sortByHighest={mockSortByHighest}
+        sortByHighestNumber={mockSortByHighestNumber}
         />)
 
 describe('Email Table', () => {
@@ -36,7 +36,7 @@ describe('Email Table', () => {
     describe('when a user clicks the TimeStamp subheader', () => {
         it('should invoke the sortByAlphabet function in `props`', () => {
             emailTable.find('.emailTable-subheading-timestamp').simulate('click')
-            expect(mockSortByHighest).toHaveBeenCalledWith('timestamp')
+            expect(mockSortByHighestNumber).toHaveBeenCalledWith('timestamp')
         })    
     })
 })

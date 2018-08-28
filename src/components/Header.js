@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import '../css/Header.css'
 import '../css/colors.css'
 
@@ -8,5 +9,9 @@ const Header = ({ title }) =>
         <h6 className='header-date'>Jun 1st, 2018 - July 1st, 2018</h6>
         {/* TO DO: Hook up component to date filter  */}
     </div>
+
+Header.propTypes = {
+    title: PropTypes.string.isRequired
+}
 
 export default Header

@@ -1,4 +1,4 @@
-import { convertTime, sortByHighest, sortAlphabetically, letterCompare } from './index'
+import { convertTime, sortNumerically, sortAlphabetically, letterCompare } from './index'
 
 describe('Time Converter', () => {
     it('converts time from unix to readable time', () => {
@@ -11,7 +11,7 @@ describe('Sort by lowest parameter', () => {
         const sample = [ { m:1 }, { m:2 }, { m:3 } ]
         const expectedOutput = [ { m:3 }, { m:2 }, { m:1 } ]
 
-        expect(sortByHighest(sample, 'm')).toEqual(expectedOutput)
+        expect(sortNumerically(sample, 'm')).toEqual(expectedOutput)
     })
 })
 

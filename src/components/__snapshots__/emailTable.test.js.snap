@@ -1517,7 +1517,7 @@ ShallowWrapper {
           ]
     }
     sortByAlphabet={[Function]}
-    sortByHighest={[Function]}
+    sortByHighestNumber={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

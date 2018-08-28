@@ -3,7 +3,7 @@
 exports[`Client Info should render properly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ClientInfo
+  Symbol(enzyme.__unrendered__): <customerInfo
     selectCustomer={[Function]}
     selectedCustomer={
         Object {

@@ -2,9 +2,9 @@ import React, {Component} from 'react'
 import Data from '../data/data.json'
 import EmailTable from './EmailTable'
 import Header from './Header'
-import ErrorBoundary from '../ErrorBoundary/ErrorBoundary'
+import ErrorBoundary from '../ErrorBoundary'
 import CustomerInfo from './CustomerInfo'
-import { sortByHighest, sortAlphabetically } from '../helper'
+import { sortNumerically, sortAlphabetically } from '../helper'
 import '../css/App.css'
 import '../css/colors.css'
 import '../css/font.css'
@@ -17,11 +17,11 @@ export default class App extends Component{
             selectedCustomer: null,
         }
         this.sortByAlphabet = this.sortByAlphabet.bind(this);
-        this.sortByHighest = this.sortByHighest.bind(this);
+        this.sortByHighestNumber = this.sortByHighestNumber.bind(this);
         this.selectCustomer = this.selectCustomer.bind(this);
       }
     componentWillMount(){
-        const sortedData = sortByHighest(Data, 'timestamp')
+        const sortedData = sortNumerically(Data, 'timestamp')
         this.setState({ data: sortedData })
     }
 
@@ -30,8 +30,8 @@ export default class App extends Component{
         this.setState({ data: sortedData})
     }
 
-    sortByHighest(param){
-        const sortedData = sortByHighest(Data, param)
+    sortByHighestNumber(param){
+        const sortedData = sortNumerically(Data, param)
         this.setState({ data: sortedData})
     }
 
@@ -47,14 +47,16 @@ export default class App extends Component{
                         <EmailTable 
                             data={this.state.data} 
                             sortByAlphabet={this.sortByAlphabet}
-                            sortByHighest={this.sortByHighest}
+                            sortByHighestNumber={this.sortByHighestNumber}
                             selectCustomer={this.selectCustomer}
                             />
                     </ErrorBoundary>
-                    <CustomerInfo 
-                        selectedCustomer={this.state.selectedCustomer}
-                        selectCustomer={this.selectCustomer}
-                        />
+                    <ErrorBoundary>
+                        <CustomerInfo 
+                            selectedCustomer={this.state.selectedCustomer}
+                            selectCustomer={this.selectCustomer}
+                            />
+                    </ErrorBoundary>
                 </div>
         )
     }

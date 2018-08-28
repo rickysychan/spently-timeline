@@ -3,7 +3,9 @@
 exports[`Header should render properly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__unrendered__): <Header
+    title="Header"
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -19,7 +21,9 @@ ShallowWrapper {
       "children": Array [
         <h2
           className="header-title"
-/>,
+>
+          Header
+</h2>,
         <h6
           className="header-date"
 >
@@ -35,11 +39,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": "Header",
           "className": "header-title",
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "Header",
         "type": "h2",
       },
       Object {
@@ -66,7 +70,9 @@ ShallowWrapper {
         "children": Array [
           <h2
             className="header-title"
-/>,
+>
+            Header
+</h2>,
           <h6
             className="header-date"
 >
@@ -82,11 +88,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": "Header",
             "className": "header-title",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "Header",
           "type": "h2",
         },
         Object {

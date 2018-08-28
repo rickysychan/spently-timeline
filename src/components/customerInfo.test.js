@@ -4,7 +4,7 @@ import CustomerInfo from './CustomerInfo'
  
 const sample = { 
         name: {first: "Eric", 
-        last: 'hartman'}, 
+               last: 'hartman'}, 
         friends:['ioo', 'foo', 'moe'], 
         tags:['goo', 'moo', 'shoe'], 
         age: 29, 
