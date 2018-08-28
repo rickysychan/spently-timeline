@@ -2,6 +2,13 @@
 
 This component will be a timeline where Shopify store owners will be able to see who their transactional emails was sent to (email), when it was sent (timestamp), and what kind of email it was (emailType).
 
+### Component
+![This is the registration page](https://github.com/rickysychan/spently-timeline/blob/master/src/imgs/component.png)
+
+### Error boundary
+
+![This is the registration page](https://github.com/rickysychan/spently-timeline/blob/master/src/imgs/errorBoudnary.png)
+
 ### How do try it?
 
 1) npm install
