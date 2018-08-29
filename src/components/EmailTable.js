@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 export default class EmailTable extends Component {
     componentDidMount() {
     // uncomment below to test error boundary
-    // throw new Error("An error has occured in Buggy component!");
+    throw new Error("An error has occured in Buggy component!");
     }
 
     render(){
