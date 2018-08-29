@@ -9,7 +9,7 @@ This component will be a timeline where Shopify store owners will be able to see
 
 ![This is the registration page](https://github.com/rickysychan/spently-timeline/blob/master/src/imgs/errorBoudnary.png)
 
-### How do try it?
+### How do I try it?
 
 1) npm install
 2) npm start
