@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import TableDetails from './TableDetails'
 import PropTypes from 'prop-types'
-import '../css/EmailTable.css'
 
 export default class EmailTable extends Component {
     componentDidMount() {

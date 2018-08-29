@@ -5,9 +5,7 @@ import Header from './Header'
 import ErrorBoundary from '../ErrorBoundary'
 import CustomerInfo from './CustomerInfo'
 import { sortNumerically, sortAlphabetically } from '../helper'
-import '../css/App.css'
-import '../css/colors.css'
-import '../css/font.css'
+import '../css'
 
 export default class App extends Component{
     constructor(props) {

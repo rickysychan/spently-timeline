@@ -1,8 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { convertTime } from '../helper'
-import '../css/TableDetails.css'
-import '../css/colors.css'
 
 const TableDetails = ({ email, emailType, timestamp, selectCustomer, customer }) => 
             <tr className='table-details' onClick={() => selectCustomer(customer)}>

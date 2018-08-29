@@ -26,7 +26,8 @@
       "!src/index.js",
       "!src/setupTests.js",
       "!src/ErrorBoundary/index.js",
-      "!src/imgs/*"
+      "!src/imgs/*",
+      "!src/css/index.js"
     ]
   }
 }

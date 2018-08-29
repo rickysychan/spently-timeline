@@ -1,0 +1,7 @@
+import './App.css'
+import './colors.css'
+import './font.css'
+import './CustomerInfo.css'
+import './EmailTable.css'
+import './Header.css'
+import './TableDetails.css'
